@@ -1,10 +1,15 @@
 {
   "Version": 1,
   "ProjectMap": {
-    "a9ab856f-3e14-4510-803c-530da10ce1c5": {
-      "ProjectGuid": "a9ab856f-3e14-4510-803c-530da10ce1c5",
+    "53a86680-39dc-4fa0-857f-3ba84178087c": {
+      "ProjectGuid": "53a86680-39dc-4fa0-857f-3ba84178087c",
       "DisplayName": "CAcruzlara",
       "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 1

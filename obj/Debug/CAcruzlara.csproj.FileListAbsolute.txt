@@ -1,0 +1,16 @@
+C:\Users\lange\Develop\school\software-engeniering\CAcruzlara\bin\Debug\CAcruzlara.exe.config
+C:\Users\lange\Develop\school\software-engeniering\CAcruzlara\bin\Debug\CAcruzlara.exe
+C:\Users\lange\Develop\school\software-engeniering\CAcruzlara\bin\Debug\CAcruzlara.pdb
+C:\Users\lange\Develop\school\software-engeniering\CAcruzlara\obj\Debug\CAcruzlara.csproj.AssemblyReference.cache
+C:\Users\lange\Develop\school\software-engeniering\CAcruzlara\obj\Debug\CAcruzlara.csproj.SuggestedBindingRedirects.cache
+C:\Users\lange\Develop\school\software-engeniering\CAcruzlara\obj\Debug\CAcruzlara.csproj.CoreCompileInputs.cache
+C:\Users\lange\Develop\school\software-engeniering\CAcruzlara\obj\Debug\CAcruzlara.exe
+C:\Users\lange\Develop\school\software-engeniering\CAcruzlara\obj\Debug\CAcruzlara.pdb
+C:\Users\lange\Develop\school\software-engeniering\practicas-ingenieriaDeSoftware\bin\Debug\CAcruzlara.exe.config
+C:\Users\lange\Develop\school\software-engeniering\practicas-ingenieriaDeSoftware\bin\Debug\CAcruzlara.exe
+C:\Users\lange\Develop\school\software-engeniering\practicas-ingenieriaDeSoftware\bin\Debug\CAcruzlara.pdb
+C:\Users\lange\Develop\school\software-engeniering\practicas-ingenieriaDeSoftware\obj\Debug\CAcruzlara.csproj.AssemblyReference.cache
+C:\Users\lange\Develop\school\software-engeniering\practicas-ingenieriaDeSoftware\obj\Debug\CAcruzlara.csproj.SuggestedBindingRedirects.cache
+C:\Users\lange\Develop\school\software-engeniering\practicas-ingenieriaDeSoftware\obj\Debug\CAcruzlara.csproj.CoreCompileInputs.cache
+C:\Users\lange\Develop\school\software-engeniering\practicas-ingenieriaDeSoftware\obj\Debug\CAcruzlara.exe
+C:\Users\lange\Develop\school\software-engeniering\practicas-ingenieriaDeSoftware\obj\Debug\CAcruzlara.pdb

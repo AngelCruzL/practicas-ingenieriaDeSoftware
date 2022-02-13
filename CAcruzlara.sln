@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.0.32126.317
+VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAcruzlara", "CAcruzlara.csproj", "{A9AB856F-3E14-4510-803C-530DA10CE1C5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAcruzlara", "CAcruzlara.csproj", "{53A86680-39DC-4FA0-857F-3BA84178087C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A9AB856F-3E14-4510-803C-530DA10CE1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A9AB856F-3E14-4510-803C-530DA10CE1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A9AB856F-3E14-4510-803C-530DA10CE1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A9AB856F-3E14-4510-803C-530DA10CE1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53A86680-39DC-4FA0-857F-3BA84178087C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53A86680-39DC-4FA0-857F-3BA84178087C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53A86680-39DC-4FA0-857F-3BA84178087C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53A86680-39DC-4FA0-857F-3BA84178087C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {6EE54472-7024-44D1-A068-77795D83D5C0}
+		SolutionGuid = {216AF3BE-FC9A-41A6-AA97-7885F9B3B025}
 	EndGlobalSection
 EndGlobal
