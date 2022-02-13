@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "93b7fcc7-03df-4494-8851-5a1df2f1e032": {
+      "ProjectGuid": "93b7fcc7-03df-4494-8851-5a1df2f1e032",
+      "DisplayName": "WFcruzlara",
+      "ColorIndex": 0
+    },
+    "45aaba2e-d02e-4f1a-ba75-11d2b4343474": {
+      "ProjectGuid": "45aaba2e-d02e-4f1a-ba75-11d2b4343474",
+      "DisplayName": "WFcruzlara",
+      "ColorIndex": 1
+    },
+    "129d204c-ffdf-4b54-9772-611df74079a8": {
+      "ProjectGuid": "129d204c-ffdf-4b54-9772-611df74079a8",
+      "DisplayName": "WFcruzlara",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

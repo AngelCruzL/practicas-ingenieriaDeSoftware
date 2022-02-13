@@ -1,3 +1,10 @@
-# Template Console Application
+# Práctica 5
 
-Projecto inicial para la elaboración de prácticas pertinentes a la temática de Aplicaciones de Consola utilizando .NET Framework v4.7.2.
+Elaboración de una aplicación de consola con la finalidad de mostrar el rango de posibles valores de los distintos tipos de datos del programa C#.
+
+En este caso el enfoque se da en 4 tipos de datos:
+
+- `int`
+- `int16`
+- `float`
+- `double`
