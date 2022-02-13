@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{93B7FCC7-03DF-4494-8851-5A1DF2F1E032}</ProjectGuid>
+    <ProjectGuid>{45AABA2E-D02E-4F1A-BA75-11D2B4343474}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>WFcruzlara</RootNamespace>
     <AssemblyName>WFcruzlara</AssemblyName>
@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

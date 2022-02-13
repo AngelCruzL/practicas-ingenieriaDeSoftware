@@ -1,3 +1,3 @@
-# Template Windows Form
+# Práctica 2
 
-Projecto inicial para la elaboración de prácticas pertinentes a la temática de Windows Forms utilizando .NET Framework v4.7.2.
+Elaboración de mi tarjeta de presentación para la asignatura de ingeniería de software 🚀
