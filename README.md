@@ -4,3 +4,15 @@ Repositorio de prácticas de la asignatura Ingeniería de Software, con la final
 Todas las prácticas están elaboradas en el lenguaje de programación C# y dentro del repositorio existen dos ramas que funcionan como templates para cada tipo de práctica:
 -	`template-windows-form`
 -	`template-console-application`
+
+## Listado de prácticas
+
+| Número de práctica | Descripción | Windows Form | Console Application |
+| ----- | -----| -----| ----- |
+| [Práctica 1](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-1) | Introducción a Visual Studio | ✅ |  |
+| [Práctica 2](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-2) | Tarjeta de presentación | ✅ |  |
+| [Práctica 3](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-3) | Application Launcher | ✅ |  |
+| [Práctica 4](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-4) | Instancia de clases |  | ✅ |
+| [Práctica 5](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-5) | Rango de datos |  | ✅ |
+| [Práctica 6](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-6) | Rango de datos v2 |  | ✅ |
+| [Práctica 7](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-7) | Application Launcher v2 | ✅ |  |
