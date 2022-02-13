@@ -1,6 +1,3 @@
-# Prácticas Ingeniería de Software
+# Template Windows Form
 
-Repositorio de prácticas de la asignatura Ingeniería de Software, con la finalidad de mantener un mayor orden en el seguimiento de los archivos cada práctica tendrá su respectiva rama.
-Todas las prácticas están elaboradas en el lenguaje de programación C# y dentro del repositorio existen dos ramas que funcionan como templates para cada tipo de práctica:
--	`template-windows-form`
--	`template-console-application`
+Projecto inicial para la elaboración de prácticas pertinentes a la temática de Windows Forms utilizando .NET Framework v4.7.2.
