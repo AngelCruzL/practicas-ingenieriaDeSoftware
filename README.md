@@ -1,3 +1,3 @@
-# Template Windows Form
+# Práctica 1
 
-Projecto inicial para la elaboración de prácticas pertinentes a la temática de Windows Forms utilizando .NET Framework v4.7.2.
+Elaboración libre de un formulario utilizando el IDE [Visual Studio](https://visualstudio.microsoft.com/) con la finalidad de conocer el entorno de desarrollo.
