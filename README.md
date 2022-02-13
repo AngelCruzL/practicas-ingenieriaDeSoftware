@@ -1,3 +1,3 @@
-# Template Windows Form
+# Práctica 3
 
-Projecto inicial para la elaboración de prácticas pertinentes a la temática de Windows Forms utilizando .NET Framework v4.7.2.
+Elaboración de un lanzador de una aplicación del sistema Windows 10 (en este caso el blog de notas o `notepad`) y de la firma dígital de los proyectos (práctica 2).
