@@ -151,5 +151,110 @@ namespace WFcruzlara
         {
             System.Diagnostics.Process.Start("Calc.exe");
         }
+
+        private void groupBox2_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void aplicacionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void visualStudioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("devenv.exe");
+        }
+
+        private void pictureBox12_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/Microsoft VS Code/Code.exe");
+        }
+
+        private void visualStudioCodeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/Microsoft VS Code/Code.exe");
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("MSACCESS.exe");
+        }
+
+        private void accessToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("MSACCESS.exe");
+        }
+
+        private void pictureBox14_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("OUTLOOK.exe");
+        }
+
+        private void outlookToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("OUTLOOK.exe");
+        }
+
+        private void pictureBox15_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("POWERPNT.exe");
+        }
+
+        private void powerPointToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("POWERPNT.exe");
+        }
+
+        private void pictureBox16_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("WINWORD.exe");
+        }
+
+        private void wordToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("WINWORD.exe");
+        }
+
+        private void pictureBox17_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("EXCEL.exe");
+        }
+
+        private void excelToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("EXCEL.exe");
+        }
+
+        private void pictureBox18_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/VideoLAN/VLC/vlc.exe");
+        }
+
+        private void vLCToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/VideoLAN/VLC/vlc.exe");
+        }
+
+        private void pictureBox19_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ONENOTE.exe");
+        }
+
+        private void oneNoteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ONENOTE.exe");
+        }
+
+        private void pictureBox20_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/Mozilla Firefox/firefox.exe");
+        }
+
+        private void oneDriveToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("C:/Program Files/Mozilla Firefox/firefox.exe");
+        }
     }
 }
