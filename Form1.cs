@@ -119,7 +119,7 @@ namespace WFcruzlara
 
         private void visualStudioToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            System.Diagnostics.Process.Start("devenv.exe");
+            System.Diagnostics.Process.Start("Calc.exe");
         }
 
         private void taskManagerToolStripMenuItem_Click(object sender, EventArgs e)
@@ -135,6 +135,21 @@ namespace WFcruzlara
         private void fileExplorerToolStripMenuItem_Click(object sender, EventArgs e)
         {
             System.Diagnostics.Process.Start("explorer.exe");
+        }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox11_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("Calc.exe");
         }
     }
 }
