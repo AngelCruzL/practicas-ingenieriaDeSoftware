@@ -79,6 +79,28 @@
             this.vLCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oneNoteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.oneDriveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.pictureBox23 = new System.Windows.Forms.PictureBox();
+            this.pictureBox24 = new System.Windows.Forms.PictureBox();
+            this.pictureBox25 = new System.Windows.Forms.PictureBox();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.pictureBox27 = new System.Windows.Forms.PictureBox();
+            this.pictureBox28 = new System.Windows.Forms.PictureBox();
+            this.pictureBox29 = new System.Windows.Forms.PictureBox();
+            this.pictureBox30 = new System.Windows.Forms.PictureBox();
+            this.archivosAsociadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.efectoDeSonidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.documentoDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoCSVDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logoDeLaESIMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logoDelIPNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoHTMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notaDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.videoDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoCSSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoJavaScriptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -102,6 +124,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
             this.SuspendLayout();
             // 
             // signature_button
@@ -130,7 +163,8 @@
             this.archivoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.firmaToolStripMenuItem,
             this.aplicacionesToolStripMenuItem,
-            this.aplicacionesExternasToolStripMenuItem});
+            this.aplicacionesExternasToolStripMenuItem,
+            this.archivosAsociadosToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
@@ -375,7 +409,7 @@
             this.groupBox1.Controls.Add(this.pictureBox7);
             this.groupBox1.Controls.Add(this.pictureBox9);
             this.groupBox1.Controls.Add(this.pictureBox10);
-            this.groupBox1.Location = new System.Drawing.Point(12, 54);
+            this.groupBox1.Location = new System.Drawing.Point(12, 48);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(899, 103);
             this.groupBox1.TabIndex = 22;
@@ -419,7 +453,7 @@
             this.groupBox2.Controls.Add(this.pictureBox13);
             this.groupBox2.Controls.Add(this.pictureBox12);
             this.groupBox2.Controls.Add(this.pictureBox8);
-            this.groupBox2.Location = new System.Drawing.Point(12, 177);
+            this.groupBox2.Location = new System.Drawing.Point(12, 168);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(899, 103);
             this.groupBox2.TabIndex = 23;
@@ -430,7 +464,7 @@
             // pictureBox12
             // 
             this.pictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox12.Image")));
-            this.pictureBox12.Location = new System.Drawing.Point(109, 27);
+            this.pictureBox12.Location = new System.Drawing.Point(112, 27);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(55, 55);
             this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -442,7 +476,7 @@
             // pictureBox13
             // 
             this.pictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox13.Image")));
-            this.pictureBox13.Location = new System.Drawing.Point(194, 27);
+            this.pictureBox13.Location = new System.Drawing.Point(199, 27);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(55, 55);
             this.pictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -454,7 +488,7 @@
             // pictureBox14
             // 
             this.pictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox14.Image")));
-            this.pictureBox14.Location = new System.Drawing.Point(280, 27);
+            this.pictureBox14.Location = new System.Drawing.Point(286, 27);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(55, 55);
             this.pictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -466,7 +500,7 @@
             // pictureBox15
             // 
             this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
-            this.pictureBox15.Location = new System.Drawing.Point(369, 27);
+            this.pictureBox15.Location = new System.Drawing.Point(375, 27);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(55, 55);
             this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -478,7 +512,7 @@
             // pictureBox16
             // 
             this.pictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox16.Image")));
-            this.pictureBox16.Location = new System.Drawing.Point(458, 27);
+            this.pictureBox16.Location = new System.Drawing.Point(463, 27);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(55, 55);
             this.pictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -490,7 +524,7 @@
             // pictureBox17
             // 
             this.pictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox17.Image")));
-            this.pictureBox17.Location = new System.Drawing.Point(547, 27);
+            this.pictureBox17.Location = new System.Drawing.Point(551, 27);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(55, 55);
             this.pictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -502,7 +536,7 @@
             // pictureBox18
             // 
             this.pictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox18.Image")));
-            this.pictureBox18.Location = new System.Drawing.Point(722, 27);
+            this.pictureBox18.Location = new System.Drawing.Point(728, 27);
             this.pictureBox18.Name = "pictureBox18";
             this.pictureBox18.Size = new System.Drawing.Size(55, 55);
             this.pictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -514,7 +548,7 @@
             // pictureBox19
             // 
             this.pictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox19.Image")));
-            this.pictureBox19.Location = new System.Drawing.Point(635, 27);
+            this.pictureBox19.Location = new System.Drawing.Point(640, 27);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(55, 55);
             this.pictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -526,9 +560,9 @@
             // pictureBox20
             // 
             this.pictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox20.Image")));
-            this.pictureBox20.Location = new System.Drawing.Point(807, 27);
+            this.pictureBox20.Location = new System.Drawing.Point(813, 27);
             this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(67, 55);
+            this.pictureBox20.Size = new System.Drawing.Size(57, 55);
             this.pictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox20.TabIndex = 18;
             this.pictureBox20.TabStop = false;
@@ -598,11 +632,238 @@
             this.oneDriveToolStripMenuItem.Text = "Firefox";
             this.oneDriveToolStripMenuItem.Click += new System.EventHandler(this.oneDriveToolStripMenuItem_Click);
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.pictureBox30);
+            this.groupBox3.Controls.Add(this.pictureBox29);
+            this.groupBox3.Controls.Add(this.pictureBox28);
+            this.groupBox3.Controls.Add(this.pictureBox27);
+            this.groupBox3.Controls.Add(this.pictureBox26);
+            this.groupBox3.Controls.Add(this.pictureBox25);
+            this.groupBox3.Controls.Add(this.pictureBox24);
+            this.groupBox3.Controls.Add(this.pictureBox23);
+            this.groupBox3.Controls.Add(this.pictureBox22);
+            this.groupBox3.Controls.Add(this.pictureBox21);
+            this.groupBox3.Location = new System.Drawing.Point(12, 289);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(899, 103);
+            this.groupBox3.TabIndex = 24;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Archivos asociados";
+            // 
+            // pictureBox21
+            // 
+            this.pictureBox21.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox21.Image")));
+            this.pictureBox21.Location = new System.Drawing.Point(24, 29);
+            this.pictureBox21.Name = "pictureBox21";
+            this.pictureBox21.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox21.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox21.TabIndex = 0;
+            this.pictureBox21.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox21, "Efecto de sonido");
+            this.pictureBox21.Click += new System.EventHandler(this.pictureBox21_Click);
+            // 
+            // pictureBox22
+            // 
+            this.pictureBox22.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox22.Image")));
+            this.pictureBox22.Location = new System.Drawing.Point(112, 29);
+            this.pictureBox22.Name = "pictureBox22";
+            this.pictureBox22.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox22.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox22.TabIndex = 1;
+            this.pictureBox22.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox22, "Documento de prueba");
+            this.pictureBox22.Click += new System.EventHandler(this.pictureBox22_Click);
+            // 
+            // pictureBox23
+            // 
+            this.pictureBox23.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox23.Image")));
+            this.pictureBox23.Location = new System.Drawing.Point(199, 29);
+            this.pictureBox23.Name = "pictureBox23";
+            this.pictureBox23.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox23.TabIndex = 2;
+            this.pictureBox23.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox23, "Archivo CSV de prueba");
+            this.pictureBox23.Click += new System.EventHandler(this.pictureBox23_Click);
+            // 
+            // pictureBox24
+            // 
+            this.pictureBox24.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox24.Image")));
+            this.pictureBox24.Location = new System.Drawing.Point(286, 29);
+            this.pictureBox24.Name = "pictureBox24";
+            this.pictureBox24.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox24.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox24.TabIndex = 3;
+            this.pictureBox24.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox24, "Logo de la ESIME");
+            this.pictureBox24.Click += new System.EventHandler(this.pictureBox24_Click);
+            // 
+            // pictureBox25
+            // 
+            this.pictureBox25.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox25.Image")));
+            this.pictureBox25.Location = new System.Drawing.Point(375, 29);
+            this.pictureBox25.Name = "pictureBox25";
+            this.pictureBox25.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox25.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox25.TabIndex = 4;
+            this.pictureBox25.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox25, "Logo del IPN");
+            this.pictureBox25.Click += new System.EventHandler(this.pictureBox25_Click);
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox26.Image")));
+            this.pictureBox26.Location = new System.Drawing.Point(463, 29);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox26.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox26.TabIndex = 5;
+            this.pictureBox26.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox26, "Archivo HTML");
+            this.pictureBox26.Click += new System.EventHandler(this.pictureBox26_Click);
+            // 
+            // pictureBox27
+            // 
+            this.pictureBox27.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox27.Image")));
+            this.pictureBox27.Location = new System.Drawing.Point(551, 29);
+            this.pictureBox27.Name = "pictureBox27";
+            this.pictureBox27.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox27.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox27.TabIndex = 6;
+            this.pictureBox27.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox27, "Nota de prueba");
+            this.pictureBox27.Click += new System.EventHandler(this.pictureBox27_Click);
+            // 
+            // pictureBox28
+            // 
+            this.pictureBox28.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox28.Image")));
+            this.pictureBox28.Location = new System.Drawing.Point(640, 29);
+            this.pictureBox28.Name = "pictureBox28";
+            this.pictureBox28.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox28.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox28.TabIndex = 7;
+            this.pictureBox28.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox28, "Video de prueba");
+            this.pictureBox28.Click += new System.EventHandler(this.pictureBox28_Click);
+            // 
+            // pictureBox29
+            // 
+            this.pictureBox29.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox29.Image")));
+            this.pictureBox29.Location = new System.Drawing.Point(728, 29);
+            this.pictureBox29.Name = "pictureBox29";
+            this.pictureBox29.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox29.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox29.TabIndex = 8;
+            this.pictureBox29.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox29, "Archivo CSS");
+            this.pictureBox29.Click += new System.EventHandler(this.pictureBox29_Click);
+            // 
+            // pictureBox30
+            // 
+            this.pictureBox30.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox30.Image")));
+            this.pictureBox30.Location = new System.Drawing.Point(813, 29);
+            this.pictureBox30.Name = "pictureBox30";
+            this.pictureBox30.Size = new System.Drawing.Size(57, 55);
+            this.pictureBox30.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox30.TabIndex = 9;
+            this.pictureBox30.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox30, "Archivo JavaScript");
+            this.pictureBox30.Click += new System.EventHandler(this.pictureBox30_Click);
+            // 
+            // archivosAsociadosToolStripMenuItem
+            // 
+            this.archivosAsociadosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.efectoDeSonidoToolStripMenuItem,
+            this.documentoDePruebaToolStripMenuItem,
+            this.archivoCSVDePruebaToolStripMenuItem,
+            this.logoDeLaESIMEToolStripMenuItem,
+            this.logoDelIPNToolStripMenuItem,
+            this.archivoHTMLToolStripMenuItem,
+            this.notaDePruebaToolStripMenuItem,
+            this.videoDePruebaToolStripMenuItem,
+            this.archivoCSSToolStripMenuItem,
+            this.archivoJavaScriptToolStripMenuItem});
+            this.archivosAsociadosToolStripMenuItem.Name = "archivosAsociadosToolStripMenuItem";
+            this.archivosAsociadosToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.archivosAsociadosToolStripMenuItem.Text = "Archivos asociados";
+            // 
+            // efectoDeSonidoToolStripMenuItem
+            // 
+            this.efectoDeSonidoToolStripMenuItem.Name = "efectoDeSonidoToolStripMenuItem";
+            this.efectoDeSonidoToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.efectoDeSonidoToolStripMenuItem.Text = "Efecto de sonido";
+            this.efectoDeSonidoToolStripMenuItem.Click += new System.EventHandler(this.efectoDeSonidoToolStripMenuItem_Click);
+            // 
+            // documentoDePruebaToolStripMenuItem
+            // 
+            this.documentoDePruebaToolStripMenuItem.Name = "documentoDePruebaToolStripMenuItem";
+            this.documentoDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.documentoDePruebaToolStripMenuItem.Text = "Documento de prueba";
+            this.documentoDePruebaToolStripMenuItem.Click += new System.EventHandler(this.documentoDePruebaToolStripMenuItem_Click);
+            // 
+            // archivoCSVDePruebaToolStripMenuItem
+            // 
+            this.archivoCSVDePruebaToolStripMenuItem.Name = "archivoCSVDePruebaToolStripMenuItem";
+            this.archivoCSVDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.archivoCSVDePruebaToolStripMenuItem.Text = "Archivo CSV de prueba";
+            this.archivoCSVDePruebaToolStripMenuItem.Click += new System.EventHandler(this.archivoCSVDePruebaToolStripMenuItem_Click);
+            // 
+            // logoDeLaESIMEToolStripMenuItem
+            // 
+            this.logoDeLaESIMEToolStripMenuItem.Name = "logoDeLaESIMEToolStripMenuItem";
+            this.logoDeLaESIMEToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.logoDeLaESIMEToolStripMenuItem.Text = "Logo de la ESIME";
+            this.logoDeLaESIMEToolStripMenuItem.Click += new System.EventHandler(this.logoDeLaESIMEToolStripMenuItem_Click);
+            // 
+            // logoDelIPNToolStripMenuItem
+            // 
+            this.logoDelIPNToolStripMenuItem.Name = "logoDelIPNToolStripMenuItem";
+            this.logoDelIPNToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.logoDelIPNToolStripMenuItem.Text = "Logo del IPN";
+            this.logoDelIPNToolStripMenuItem.Click += new System.EventHandler(this.logoDelIPNToolStripMenuItem_Click);
+            // 
+            // archivoHTMLToolStripMenuItem
+            // 
+            this.archivoHTMLToolStripMenuItem.Name = "archivoHTMLToolStripMenuItem";
+            this.archivoHTMLToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.archivoHTMLToolStripMenuItem.Text = "Archivo HTML";
+            this.archivoHTMLToolStripMenuItem.Click += new System.EventHandler(this.archivoHTMLToolStripMenuItem_Click);
+            // 
+            // notaDePruebaToolStripMenuItem
+            // 
+            this.notaDePruebaToolStripMenuItem.Name = "notaDePruebaToolStripMenuItem";
+            this.notaDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.notaDePruebaToolStripMenuItem.Text = "Nota de prueba";
+            this.notaDePruebaToolStripMenuItem.Click += new System.EventHandler(this.notaDePruebaToolStripMenuItem_Click);
+            // 
+            // videoDePruebaToolStripMenuItem
+            // 
+            this.videoDePruebaToolStripMenuItem.Name = "videoDePruebaToolStripMenuItem";
+            this.videoDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.videoDePruebaToolStripMenuItem.Text = "Video de prueba";
+            this.videoDePruebaToolStripMenuItem.Click += new System.EventHandler(this.videoDePruebaToolStripMenuItem_Click);
+            // 
+            // archivoCSSToolStripMenuItem
+            // 
+            this.archivoCSSToolStripMenuItem.Name = "archivoCSSToolStripMenuItem";
+            this.archivoCSSToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.archivoCSSToolStripMenuItem.Text = "Archivo CSS";
+            this.archivoCSSToolStripMenuItem.Click += new System.EventHandler(this.archivoCSSToolStripMenuItem_Click);
+            // 
+            // archivoJavaScriptToolStripMenuItem
+            // 
+            this.archivoJavaScriptToolStripMenuItem.Name = "archivoJavaScriptToolStripMenuItem";
+            this.archivoJavaScriptToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.archivoJavaScriptToolStripMenuItem.Text = "Archivo JavaScript";
+            this.archivoJavaScriptToolStripMenuItem.Click += new System.EventHandler(this.archivoJavaScriptToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(927, 562);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.signature_button);
@@ -610,7 +871,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Práctica 8";
+            this.Text = "Práctica 10";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -636,6 +897,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            this.groupBox3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox27)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -692,6 +964,28 @@
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.PictureBox pictureBox30;
+        private System.Windows.Forms.PictureBox pictureBox29;
+        private System.Windows.Forms.PictureBox pictureBox28;
+        private System.Windows.Forms.PictureBox pictureBox27;
+        private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.PictureBox pictureBox25;
+        private System.Windows.Forms.PictureBox pictureBox24;
+        private System.Windows.Forms.PictureBox pictureBox23;
+        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.ToolStripMenuItem archivosAsociadosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem efectoDeSonidoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem documentoDePruebaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem archivoCSVDePruebaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logoDeLaESIMEToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem logoDelIPNToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem archivoHTMLToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem notaDePruebaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem videoDePruebaToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem archivoCSSToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem archivoJavaScriptToolStripMenuItem;
     }
 }
 

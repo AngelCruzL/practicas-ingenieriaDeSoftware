@@ -256,5 +256,105 @@ namespace WFcruzlara
         {
             System.Diagnostics.Process.Start("C:/Program Files/Mozilla Firefox/firefox.exe");
         }
+
+        private void pictureBox21_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("beat-sound.mp3");
+        }
+
+        private void efectoDeSonidoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("beat-sound.mp3");
+        }
+
+        private void pictureBox22_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("test.doc");
+        }
+
+        private void documentoDePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("test.doc");
+        }
+
+        private void pictureBox23_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("test.csv");
+        }
+
+        private void archivoCSVDePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("test.csv");
+        }
+
+        private void pictureBox24_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("esime-logo.jpg");
+        }
+
+        private void logoDeLaESIMEToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("esime-logo.jpg");
+        }
+
+        private void pictureBox25_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ipn-logo.png");
+        }
+
+        private void logoDelIPNToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("ipn-logo.png");
+        }
+
+        private void pictureBox26_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("index.html");
+        }
+
+        private void archivoHTMLToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("index.html");
+        }
+
+        private void pictureBox27_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("hello.txt");
+        }
+
+        private void notaDePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("hello.txt");
+        }
+
+        private void pictureBox28_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("countdown.mp4");
+        }
+
+        private void videoDePruebaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("countdown.mp4");
+        }
+
+        private void pictureBox29_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("styles.css");
+        }
+
+        private void archivoCSSToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("styles.css");
+        }
+
+        private void pictureBox30_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("script.js");
+        }
+
+        private void archivoJavaScriptToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("script.js");
+        }
     }
 }
