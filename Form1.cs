@@ -356,5 +356,110 @@ namespace WFcruzlara
         {
             System.Diagnostics.Process.Start("script.js");
         }
+
+        private void toolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P1_WFcruzlara.exe");
+        }
+
+        private void pictureBox31_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P1_WFcruzlara.exe");
+        }
+
+        private void practicasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox32_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P2_WFcruzlara.exe");
+        }
+
+        private void tarjetaDePresentaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P2_WFcruzlara.exe");
+        }
+
+        private void pictureBox33_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P3_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P3_WFcruzlara.exe");
+        }
+
+        private void pictureBox34_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P4_CAcruzlara.exe");
+        }
+
+        private void instanciaDeClasesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P4_CAcruzlara.exe");
+        }
+
+        private void pictureBox35_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P5_CAcruzlara.exe");
+        }
+
+        private void rangoDeDatosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P5_CAcruzlara.exe");
+        }
+
+        private void pictureBox36_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P6_CAcruzlara.exe");
+        }
+
+        private void rangoDeDatosV2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P6_CAcruzlara.exe");
+        }
+
+        private void pictureBox37_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P7_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherV2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P7_WFcruzlara.exe");
+        }
+
+        private void pictureBox38_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P8_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherV3ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P8_WFcruzlara.exe");
+        }
+
+        private void pictureBox39_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P9_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherV4ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P9_WFcruzlara.exe");
+        }
+
+        private void pictureBox40_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P10_WFcruzlara.exe");
+        }
+
+        private void applicationLauncherV5ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("P10_WFcruzlara.exe");
+        }
     }
 }

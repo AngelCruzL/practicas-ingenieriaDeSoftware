@@ -47,6 +47,37 @@
             this.controlPanelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aplicacionesExternasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.visualStudioToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.visualStudioCodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.accessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.outlookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.powerPointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.wordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oneNoteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.vLCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.oneDriveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivosAsociadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.efectoDeSonidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.documentoDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoCSVDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logoDeLaESIMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.logoDelIPNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoHTMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.notaDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.videoDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoCSSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.archivoJavaScriptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.practicasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.tarjetaDePresentaciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applicationLauncherToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.instanciaDeClasesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rangoDeDatosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.rangoDeDatosV2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applicationLauncherV2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applicationLauncherV3ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applicationLauncherV4ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.applicationLauncherV5ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -60,7 +91,6 @@
             this.pictureBox11 = new System.Windows.Forms.PictureBox();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
@@ -70,16 +100,6 @@
             this.pictureBox18 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.visualStudioCodeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.accessToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.outlookToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.powerPointToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.wordToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.excelToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.vLCToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.oneNoteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.oneDriveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
@@ -90,17 +110,19 @@
             this.pictureBox28 = new System.Windows.Forms.PictureBox();
             this.pictureBox29 = new System.Windows.Forms.PictureBox();
             this.pictureBox30 = new System.Windows.Forms.PictureBox();
-            this.archivosAsociadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.efectoDeSonidoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.documentoDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.archivoCSVDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logoDeLaESIMEToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.logoDelIPNToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.archivoHTMLToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.notaDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.videoDePruebaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.archivoCSSToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.archivoJavaScriptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox31 = new System.Windows.Forms.PictureBox();
+            this.pictureBox32 = new System.Windows.Forms.PictureBox();
+            this.pictureBox33 = new System.Windows.Forms.PictureBox();
+            this.pictureBox34 = new System.Windows.Forms.PictureBox();
+            this.pictureBox35 = new System.Windows.Forms.PictureBox();
+            this.pictureBox36 = new System.Windows.Forms.PictureBox();
+            this.pictureBox37 = new System.Windows.Forms.PictureBox();
+            this.pictureBox38 = new System.Windows.Forms.PictureBox();
+            this.pictureBox39 = new System.Windows.Forms.PictureBox();
+            this.pictureBox40 = new System.Windows.Forms.PictureBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -114,7 +136,6 @@
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
@@ -124,7 +145,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
@@ -135,12 +155,25 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.SuspendLayout();
             // 
             // signature_button
             // 
             this.signature_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.signature_button.Location = new System.Drawing.Point(837, 510);
+            this.signature_button.Location = new System.Drawing.Point(837, 526);
             this.signature_button.Name = "signature_button";
             this.signature_button.Size = new System.Drawing.Size(74, 29);
             this.signature_button.TabIndex = 0;
@@ -164,7 +197,8 @@
             this.firmaToolStripMenuItem,
             this.aplicacionesToolStripMenuItem,
             this.aplicacionesExternasToolStripMenuItem,
-            this.archivosAsociadosToolStripMenuItem});
+            this.archivosAsociadosToolStripMenuItem,
+            this.practicasToolStripMenuItem});
             this.archivoToolStripMenuItem.Name = "archivoToolStripMenuItem";
             this.archivoToolStripMenuItem.Size = new System.Drawing.Size(60, 20);
             this.archivoToolStripMenuItem.Text = "Archivo";
@@ -285,9 +319,247 @@
             // visualStudioToolStripMenuItem1
             // 
             this.visualStudioToolStripMenuItem1.Name = "visualStudioToolStripMenuItem1";
-            this.visualStudioToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.visualStudioToolStripMenuItem1.Size = new System.Drawing.Size(173, 22);
             this.visualStudioToolStripMenuItem1.Text = "Visual Studio";
             this.visualStudioToolStripMenuItem1.Click += new System.EventHandler(this.visualStudioToolStripMenuItem1_Click);
+            // 
+            // visualStudioCodeToolStripMenuItem
+            // 
+            this.visualStudioCodeToolStripMenuItem.Name = "visualStudioCodeToolStripMenuItem";
+            this.visualStudioCodeToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.visualStudioCodeToolStripMenuItem.Text = "Visual Studio Code";
+            this.visualStudioCodeToolStripMenuItem.Click += new System.EventHandler(this.visualStudioCodeToolStripMenuItem_Click);
+            // 
+            // accessToolStripMenuItem
+            // 
+            this.accessToolStripMenuItem.Name = "accessToolStripMenuItem";
+            this.accessToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.accessToolStripMenuItem.Text = "Access";
+            this.accessToolStripMenuItem.Click += new System.EventHandler(this.accessToolStripMenuItem_Click);
+            // 
+            // outlookToolStripMenuItem
+            // 
+            this.outlookToolStripMenuItem.Name = "outlookToolStripMenuItem";
+            this.outlookToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.outlookToolStripMenuItem.Text = "Outlook";
+            this.outlookToolStripMenuItem.Click += new System.EventHandler(this.outlookToolStripMenuItem_Click);
+            // 
+            // powerPointToolStripMenuItem
+            // 
+            this.powerPointToolStripMenuItem.Name = "powerPointToolStripMenuItem";
+            this.powerPointToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.powerPointToolStripMenuItem.Text = "PowerPoint";
+            this.powerPointToolStripMenuItem.Click += new System.EventHandler(this.powerPointToolStripMenuItem_Click);
+            // 
+            // wordToolStripMenuItem
+            // 
+            this.wordToolStripMenuItem.Name = "wordToolStripMenuItem";
+            this.wordToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.wordToolStripMenuItem.Text = "Word";
+            this.wordToolStripMenuItem.Click += new System.EventHandler(this.wordToolStripMenuItem_Click);
+            // 
+            // excelToolStripMenuItem
+            // 
+            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
+            this.excelToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.excelToolStripMenuItem.Text = "Excel";
+            this.excelToolStripMenuItem.Click += new System.EventHandler(this.excelToolStripMenuItem_Click);
+            // 
+            // oneNoteToolStripMenuItem
+            // 
+            this.oneNoteToolStripMenuItem.Name = "oneNoteToolStripMenuItem";
+            this.oneNoteToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.oneNoteToolStripMenuItem.Text = "OneNote";
+            this.oneNoteToolStripMenuItem.Click += new System.EventHandler(this.oneNoteToolStripMenuItem_Click);
+            // 
+            // vLCToolStripMenuItem
+            // 
+            this.vLCToolStripMenuItem.Name = "vLCToolStripMenuItem";
+            this.vLCToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.vLCToolStripMenuItem.Text = "VLC";
+            this.vLCToolStripMenuItem.Click += new System.EventHandler(this.vLCToolStripMenuItem_Click);
+            // 
+            // oneDriveToolStripMenuItem
+            // 
+            this.oneDriveToolStripMenuItem.Name = "oneDriveToolStripMenuItem";
+            this.oneDriveToolStripMenuItem.Size = new System.Drawing.Size(173, 22);
+            this.oneDriveToolStripMenuItem.Text = "Firefox";
+            this.oneDriveToolStripMenuItem.Click += new System.EventHandler(this.oneDriveToolStripMenuItem_Click);
+            // 
+            // archivosAsociadosToolStripMenuItem
+            // 
+            this.archivosAsociadosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.efectoDeSonidoToolStripMenuItem,
+            this.documentoDePruebaToolStripMenuItem,
+            this.archivoCSVDePruebaToolStripMenuItem,
+            this.logoDeLaESIMEToolStripMenuItem,
+            this.logoDelIPNToolStripMenuItem,
+            this.archivoHTMLToolStripMenuItem,
+            this.notaDePruebaToolStripMenuItem,
+            this.videoDePruebaToolStripMenuItem,
+            this.archivoCSSToolStripMenuItem,
+            this.archivoJavaScriptToolStripMenuItem});
+            this.archivosAsociadosToolStripMenuItem.Name = "archivosAsociadosToolStripMenuItem";
+            this.archivosAsociadosToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.archivosAsociadosToolStripMenuItem.Text = "Archivos asociados";
+            // 
+            // efectoDeSonidoToolStripMenuItem
+            // 
+            this.efectoDeSonidoToolStripMenuItem.Name = "efectoDeSonidoToolStripMenuItem";
+            this.efectoDeSonidoToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.efectoDeSonidoToolStripMenuItem.Text = "Efecto de sonido";
+            this.efectoDeSonidoToolStripMenuItem.Click += new System.EventHandler(this.efectoDeSonidoToolStripMenuItem_Click);
+            // 
+            // documentoDePruebaToolStripMenuItem
+            // 
+            this.documentoDePruebaToolStripMenuItem.Name = "documentoDePruebaToolStripMenuItem";
+            this.documentoDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.documentoDePruebaToolStripMenuItem.Text = "Documento de prueba";
+            this.documentoDePruebaToolStripMenuItem.Click += new System.EventHandler(this.documentoDePruebaToolStripMenuItem_Click);
+            // 
+            // archivoCSVDePruebaToolStripMenuItem
+            // 
+            this.archivoCSVDePruebaToolStripMenuItem.Name = "archivoCSVDePruebaToolStripMenuItem";
+            this.archivoCSVDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.archivoCSVDePruebaToolStripMenuItem.Text = "Archivo CSV de prueba";
+            this.archivoCSVDePruebaToolStripMenuItem.Click += new System.EventHandler(this.archivoCSVDePruebaToolStripMenuItem_Click);
+            // 
+            // logoDeLaESIMEToolStripMenuItem
+            // 
+            this.logoDeLaESIMEToolStripMenuItem.Name = "logoDeLaESIMEToolStripMenuItem";
+            this.logoDeLaESIMEToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.logoDeLaESIMEToolStripMenuItem.Text = "Logo de la ESIME";
+            this.logoDeLaESIMEToolStripMenuItem.Click += new System.EventHandler(this.logoDeLaESIMEToolStripMenuItem_Click);
+            // 
+            // logoDelIPNToolStripMenuItem
+            // 
+            this.logoDelIPNToolStripMenuItem.Name = "logoDelIPNToolStripMenuItem";
+            this.logoDelIPNToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.logoDelIPNToolStripMenuItem.Text = "Logo del IPN";
+            this.logoDelIPNToolStripMenuItem.Click += new System.EventHandler(this.logoDelIPNToolStripMenuItem_Click);
+            // 
+            // archivoHTMLToolStripMenuItem
+            // 
+            this.archivoHTMLToolStripMenuItem.Name = "archivoHTMLToolStripMenuItem";
+            this.archivoHTMLToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.archivoHTMLToolStripMenuItem.Text = "Archivo HTML";
+            this.archivoHTMLToolStripMenuItem.Click += new System.EventHandler(this.archivoHTMLToolStripMenuItem_Click);
+            // 
+            // notaDePruebaToolStripMenuItem
+            // 
+            this.notaDePruebaToolStripMenuItem.Name = "notaDePruebaToolStripMenuItem";
+            this.notaDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.notaDePruebaToolStripMenuItem.Text = "Nota de prueba";
+            this.notaDePruebaToolStripMenuItem.Click += new System.EventHandler(this.notaDePruebaToolStripMenuItem_Click);
+            // 
+            // videoDePruebaToolStripMenuItem
+            // 
+            this.videoDePruebaToolStripMenuItem.Name = "videoDePruebaToolStripMenuItem";
+            this.videoDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.videoDePruebaToolStripMenuItem.Text = "Video de prueba";
+            this.videoDePruebaToolStripMenuItem.Click += new System.EventHandler(this.videoDePruebaToolStripMenuItem_Click);
+            // 
+            // archivoCSSToolStripMenuItem
+            // 
+            this.archivoCSSToolStripMenuItem.Name = "archivoCSSToolStripMenuItem";
+            this.archivoCSSToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.archivoCSSToolStripMenuItem.Text = "Archivo CSS";
+            this.archivoCSSToolStripMenuItem.Click += new System.EventHandler(this.archivoCSSToolStripMenuItem_Click);
+            // 
+            // archivoJavaScriptToolStripMenuItem
+            // 
+            this.archivoJavaScriptToolStripMenuItem.Name = "archivoJavaScriptToolStripMenuItem";
+            this.archivoJavaScriptToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
+            this.archivoJavaScriptToolStripMenuItem.Text = "Archivo JavaScript";
+            this.archivoJavaScriptToolStripMenuItem.Click += new System.EventHandler(this.archivoJavaScriptToolStripMenuItem_Click);
+            // 
+            // practicasToolStripMenuItem
+            // 
+            this.practicasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.toolStripMenuItem2,
+            this.tarjetaDePresentaciónToolStripMenuItem,
+            this.applicationLauncherToolStripMenuItem,
+            this.instanciaDeClasesToolStripMenuItem,
+            this.rangoDeDatosToolStripMenuItem,
+            this.rangoDeDatosV2ToolStripMenuItem,
+            this.applicationLauncherV2ToolStripMenuItem,
+            this.applicationLauncherV3ToolStripMenuItem,
+            this.applicationLauncherV4ToolStripMenuItem,
+            this.applicationLauncherV5ToolStripMenuItem});
+            this.practicasToolStripMenuItem.Name = "practicasToolStripMenuItem";
+            this.practicasToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.practicasToolStripMenuItem.Text = "Prácticas";
+            this.practicasToolStripMenuItem.Click += new System.EventHandler(this.practicasToolStripMenuItem_Click);
+            // 
+            // toolStripMenuItem2
+            // 
+            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(222, 22);
+            this.toolStripMenuItem2.Text = "Introducción a Visual Studio";
+            this.toolStripMenuItem2.Click += new System.EventHandler(this.toolStripMenuItem2_Click);
+            // 
+            // tarjetaDePresentaciónToolStripMenuItem
+            // 
+            this.tarjetaDePresentaciónToolStripMenuItem.Name = "tarjetaDePresentaciónToolStripMenuItem";
+            this.tarjetaDePresentaciónToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.tarjetaDePresentaciónToolStripMenuItem.Text = "Tarjeta de presentación";
+            this.tarjetaDePresentaciónToolStripMenuItem.Click += new System.EventHandler(this.tarjetaDePresentaciónToolStripMenuItem_Click);
+            // 
+            // applicationLauncherToolStripMenuItem
+            // 
+            this.applicationLauncherToolStripMenuItem.Name = "applicationLauncherToolStripMenuItem";
+            this.applicationLauncherToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.applicationLauncherToolStripMenuItem.Text = "Application Launcher";
+            this.applicationLauncherToolStripMenuItem.Click += new System.EventHandler(this.applicationLauncherToolStripMenuItem_Click);
+            // 
+            // instanciaDeClasesToolStripMenuItem
+            // 
+            this.instanciaDeClasesToolStripMenuItem.Name = "instanciaDeClasesToolStripMenuItem";
+            this.instanciaDeClasesToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.instanciaDeClasesToolStripMenuItem.Text = "Instancia de clases";
+            this.instanciaDeClasesToolStripMenuItem.Click += new System.EventHandler(this.instanciaDeClasesToolStripMenuItem_Click);
+            // 
+            // rangoDeDatosToolStripMenuItem
+            // 
+            this.rangoDeDatosToolStripMenuItem.Name = "rangoDeDatosToolStripMenuItem";
+            this.rangoDeDatosToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.rangoDeDatosToolStripMenuItem.Text = "Rango de datos";
+            this.rangoDeDatosToolStripMenuItem.Click += new System.EventHandler(this.rangoDeDatosToolStripMenuItem_Click);
+            // 
+            // rangoDeDatosV2ToolStripMenuItem
+            // 
+            this.rangoDeDatosV2ToolStripMenuItem.Name = "rangoDeDatosV2ToolStripMenuItem";
+            this.rangoDeDatosV2ToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.rangoDeDatosV2ToolStripMenuItem.Text = "Rango de datos v2";
+            this.rangoDeDatosV2ToolStripMenuItem.Click += new System.EventHandler(this.rangoDeDatosV2ToolStripMenuItem_Click);
+            // 
+            // applicationLauncherV2ToolStripMenuItem
+            // 
+            this.applicationLauncherV2ToolStripMenuItem.Name = "applicationLauncherV2ToolStripMenuItem";
+            this.applicationLauncherV2ToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.applicationLauncherV2ToolStripMenuItem.Text = "Application Launcher v2";
+            this.applicationLauncherV2ToolStripMenuItem.Click += new System.EventHandler(this.applicationLauncherV2ToolStripMenuItem_Click);
+            // 
+            // applicationLauncherV3ToolStripMenuItem
+            // 
+            this.applicationLauncherV3ToolStripMenuItem.Name = "applicationLauncherV3ToolStripMenuItem";
+            this.applicationLauncherV3ToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.applicationLauncherV3ToolStripMenuItem.Text = "Application Launcher v3";
+            this.applicationLauncherV3ToolStripMenuItem.Click += new System.EventHandler(this.applicationLauncherV3ToolStripMenuItem_Click);
+            // 
+            // applicationLauncherV4ToolStripMenuItem
+            // 
+            this.applicationLauncherV4ToolStripMenuItem.Name = "applicationLauncherV4ToolStripMenuItem";
+            this.applicationLauncherV4ToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.applicationLauncherV4ToolStripMenuItem.Text = "Application Launcher v4";
+            this.applicationLauncherV4ToolStripMenuItem.Click += new System.EventHandler(this.applicationLauncherV4ToolStripMenuItem_Click);
+            // 
+            // applicationLauncherV5ToolStripMenuItem
+            // 
+            this.applicationLauncherV5ToolStripMenuItem.Name = "applicationLauncherV5ToolStripMenuItem";
+            this.applicationLauncherV5ToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.applicationLauncherV5ToolStripMenuItem.Text = "Application Launcher v5";
+            this.applicationLauncherV5ToolStripMenuItem.Click += new System.EventHandler(this.applicationLauncherV5ToolStripMenuItem_Click);
             // 
             // pictureBox1
             // 
@@ -409,7 +681,7 @@
             this.groupBox1.Controls.Add(this.pictureBox7);
             this.groupBox1.Controls.Add(this.pictureBox9);
             this.groupBox1.Controls.Add(this.pictureBox10);
-            this.groupBox1.Location = new System.Drawing.Point(12, 48);
+            this.groupBox1.Location = new System.Drawing.Point(12, 39);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(899, 103);
             this.groupBox1.TabIndex = 22;
@@ -440,26 +712,6 @@
             this.pictureBox8.TabStop = false;
             this.toolTip1.SetToolTip(this.pictureBox8, "Visual Studio");
             this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.pictureBox20);
-            this.groupBox2.Controls.Add(this.pictureBox19);
-            this.groupBox2.Controls.Add(this.pictureBox18);
-            this.groupBox2.Controls.Add(this.pictureBox17);
-            this.groupBox2.Controls.Add(this.pictureBox16);
-            this.groupBox2.Controls.Add(this.pictureBox15);
-            this.groupBox2.Controls.Add(this.pictureBox14);
-            this.groupBox2.Controls.Add(this.pictureBox13);
-            this.groupBox2.Controls.Add(this.pictureBox12);
-            this.groupBox2.Controls.Add(this.pictureBox8);
-            this.groupBox2.Location = new System.Drawing.Point(12, 168);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(899, 103);
-            this.groupBox2.TabIndex = 23;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Aplicaciones externas al sistema Windows 10";
-            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
             // 
             // pictureBox12
             // 
@@ -568,88 +820,6 @@
             this.pictureBox20.TabStop = false;
             this.toolTip1.SetToolTip(this.pictureBox20, "Firefox");
             this.pictureBox20.Click += new System.EventHandler(this.pictureBox20_Click);
-            // 
-            // visualStudioCodeToolStripMenuItem
-            // 
-            this.visualStudioCodeToolStripMenuItem.Name = "visualStudioCodeToolStripMenuItem";
-            this.visualStudioCodeToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.visualStudioCodeToolStripMenuItem.Text = "Visual Studio Code";
-            this.visualStudioCodeToolStripMenuItem.Click += new System.EventHandler(this.visualStudioCodeToolStripMenuItem_Click);
-            // 
-            // accessToolStripMenuItem
-            // 
-            this.accessToolStripMenuItem.Name = "accessToolStripMenuItem";
-            this.accessToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.accessToolStripMenuItem.Text = "Access";
-            this.accessToolStripMenuItem.Click += new System.EventHandler(this.accessToolStripMenuItem_Click);
-            // 
-            // outlookToolStripMenuItem
-            // 
-            this.outlookToolStripMenuItem.Name = "outlookToolStripMenuItem";
-            this.outlookToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.outlookToolStripMenuItem.Text = "Outlook";
-            this.outlookToolStripMenuItem.Click += new System.EventHandler(this.outlookToolStripMenuItem_Click);
-            // 
-            // powerPointToolStripMenuItem
-            // 
-            this.powerPointToolStripMenuItem.Name = "powerPointToolStripMenuItem";
-            this.powerPointToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.powerPointToolStripMenuItem.Text = "PowerPoint";
-            this.powerPointToolStripMenuItem.Click += new System.EventHandler(this.powerPointToolStripMenuItem_Click);
-            // 
-            // wordToolStripMenuItem
-            // 
-            this.wordToolStripMenuItem.Name = "wordToolStripMenuItem";
-            this.wordToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.wordToolStripMenuItem.Text = "Word";
-            this.wordToolStripMenuItem.Click += new System.EventHandler(this.wordToolStripMenuItem_Click);
-            // 
-            // excelToolStripMenuItem
-            // 
-            this.excelToolStripMenuItem.Name = "excelToolStripMenuItem";
-            this.excelToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.excelToolStripMenuItem.Text = "Excel";
-            this.excelToolStripMenuItem.Click += new System.EventHandler(this.excelToolStripMenuItem_Click);
-            // 
-            // vLCToolStripMenuItem
-            // 
-            this.vLCToolStripMenuItem.Name = "vLCToolStripMenuItem";
-            this.vLCToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.vLCToolStripMenuItem.Text = "VLC";
-            this.vLCToolStripMenuItem.Click += new System.EventHandler(this.vLCToolStripMenuItem_Click);
-            // 
-            // oneNoteToolStripMenuItem
-            // 
-            this.oneNoteToolStripMenuItem.Name = "oneNoteToolStripMenuItem";
-            this.oneNoteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.oneNoteToolStripMenuItem.Text = "OneNote";
-            this.oneNoteToolStripMenuItem.Click += new System.EventHandler(this.oneNoteToolStripMenuItem_Click);
-            // 
-            // oneDriveToolStripMenuItem
-            // 
-            this.oneDriveToolStripMenuItem.Name = "oneDriveToolStripMenuItem";
-            this.oneDriveToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.oneDriveToolStripMenuItem.Text = "Firefox";
-            this.oneDriveToolStripMenuItem.Click += new System.EventHandler(this.oneDriveToolStripMenuItem_Click);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.pictureBox30);
-            this.groupBox3.Controls.Add(this.pictureBox29);
-            this.groupBox3.Controls.Add(this.pictureBox28);
-            this.groupBox3.Controls.Add(this.pictureBox27);
-            this.groupBox3.Controls.Add(this.pictureBox26);
-            this.groupBox3.Controls.Add(this.pictureBox25);
-            this.groupBox3.Controls.Add(this.pictureBox24);
-            this.groupBox3.Controls.Add(this.pictureBox23);
-            this.groupBox3.Controls.Add(this.pictureBox22);
-            this.groupBox3.Controls.Add(this.pictureBox21);
-            this.groupBox3.Location = new System.Drawing.Point(12, 289);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(899, 103);
-            this.groupBox3.TabIndex = 24;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Archivos asociados";
             // 
             // pictureBox21
             // 
@@ -771,98 +941,190 @@
             this.toolTip1.SetToolTip(this.pictureBox30, "Archivo JavaScript");
             this.pictureBox30.Click += new System.EventHandler(this.pictureBox30_Click);
             // 
-            // archivosAsociadosToolStripMenuItem
+            // pictureBox31
             // 
-            this.archivosAsociadosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.efectoDeSonidoToolStripMenuItem,
-            this.documentoDePruebaToolStripMenuItem,
-            this.archivoCSVDePruebaToolStripMenuItem,
-            this.logoDeLaESIMEToolStripMenuItem,
-            this.logoDelIPNToolStripMenuItem,
-            this.archivoHTMLToolStripMenuItem,
-            this.notaDePruebaToolStripMenuItem,
-            this.videoDePruebaToolStripMenuItem,
-            this.archivoCSSToolStripMenuItem,
-            this.archivoJavaScriptToolStripMenuItem});
-            this.archivosAsociadosToolStripMenuItem.Name = "archivosAsociadosToolStripMenuItem";
-            this.archivosAsociadosToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
-            this.archivosAsociadosToolStripMenuItem.Text = "Archivos asociados";
+            this.pictureBox31.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox31.Image")));
+            this.pictureBox31.Location = new System.Drawing.Point(24, 31);
+            this.pictureBox31.Name = "pictureBox31";
+            this.pictureBox31.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox31.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox31.TabIndex = 10;
+            this.pictureBox31.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox31, "Introducción a Visual Studio");
+            this.pictureBox31.Click += new System.EventHandler(this.pictureBox31_Click);
             // 
-            // efectoDeSonidoToolStripMenuItem
+            // pictureBox32
             // 
-            this.efectoDeSonidoToolStripMenuItem.Name = "efectoDeSonidoToolStripMenuItem";
-            this.efectoDeSonidoToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.efectoDeSonidoToolStripMenuItem.Text = "Efecto de sonido";
-            this.efectoDeSonidoToolStripMenuItem.Click += new System.EventHandler(this.efectoDeSonidoToolStripMenuItem_Click);
+            this.pictureBox32.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox32.Image")));
+            this.pictureBox32.Location = new System.Drawing.Point(112, 31);
+            this.pictureBox32.Name = "pictureBox32";
+            this.pictureBox32.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox32.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox32.TabIndex = 11;
+            this.pictureBox32.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox32, "Tarjeta de presentación");
+            this.pictureBox32.Click += new System.EventHandler(this.pictureBox32_Click);
             // 
-            // documentoDePruebaToolStripMenuItem
+            // pictureBox33
             // 
-            this.documentoDePruebaToolStripMenuItem.Name = "documentoDePruebaToolStripMenuItem";
-            this.documentoDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.documentoDePruebaToolStripMenuItem.Text = "Documento de prueba";
-            this.documentoDePruebaToolStripMenuItem.Click += new System.EventHandler(this.documentoDePruebaToolStripMenuItem_Click);
+            this.pictureBox33.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox33.Image")));
+            this.pictureBox33.Location = new System.Drawing.Point(199, 31);
+            this.pictureBox33.Name = "pictureBox33";
+            this.pictureBox33.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox33.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox33.TabIndex = 12;
+            this.pictureBox33.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox33, "Application Launcher");
+            this.pictureBox33.Click += new System.EventHandler(this.pictureBox33_Click);
             // 
-            // archivoCSVDePruebaToolStripMenuItem
+            // pictureBox34
             // 
-            this.archivoCSVDePruebaToolStripMenuItem.Name = "archivoCSVDePruebaToolStripMenuItem";
-            this.archivoCSVDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.archivoCSVDePruebaToolStripMenuItem.Text = "Archivo CSV de prueba";
-            this.archivoCSVDePruebaToolStripMenuItem.Click += new System.EventHandler(this.archivoCSVDePruebaToolStripMenuItem_Click);
+            this.pictureBox34.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox34.Image")));
+            this.pictureBox34.Location = new System.Drawing.Point(286, 31);
+            this.pictureBox34.Name = "pictureBox34";
+            this.pictureBox34.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox34.TabIndex = 13;
+            this.pictureBox34.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox34, "Instancia de clases");
+            this.pictureBox34.Click += new System.EventHandler(this.pictureBox34_Click);
             // 
-            // logoDeLaESIMEToolStripMenuItem
+            // pictureBox35
             // 
-            this.logoDeLaESIMEToolStripMenuItem.Name = "logoDeLaESIMEToolStripMenuItem";
-            this.logoDeLaESIMEToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.logoDeLaESIMEToolStripMenuItem.Text = "Logo de la ESIME";
-            this.logoDeLaESIMEToolStripMenuItem.Click += new System.EventHandler(this.logoDeLaESIMEToolStripMenuItem_Click);
+            this.pictureBox35.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox35.Image")));
+            this.pictureBox35.Location = new System.Drawing.Point(375, 31);
+            this.pictureBox35.Name = "pictureBox35";
+            this.pictureBox35.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox35.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox35.TabIndex = 14;
+            this.pictureBox35.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox35, "Rango de datos");
+            this.pictureBox35.Click += new System.EventHandler(this.pictureBox35_Click);
             // 
-            // logoDelIPNToolStripMenuItem
+            // pictureBox36
             // 
-            this.logoDelIPNToolStripMenuItem.Name = "logoDelIPNToolStripMenuItem";
-            this.logoDelIPNToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.logoDelIPNToolStripMenuItem.Text = "Logo del IPN";
-            this.logoDelIPNToolStripMenuItem.Click += new System.EventHandler(this.logoDelIPNToolStripMenuItem_Click);
+            this.pictureBox36.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox36.Image")));
+            this.pictureBox36.Location = new System.Drawing.Point(463, 31);
+            this.pictureBox36.Name = "pictureBox36";
+            this.pictureBox36.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox36.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox36.TabIndex = 15;
+            this.pictureBox36.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox36, "Rango de datos v2");
+            this.pictureBox36.Click += new System.EventHandler(this.pictureBox36_Click);
             // 
-            // archivoHTMLToolStripMenuItem
+            // pictureBox37
             // 
-            this.archivoHTMLToolStripMenuItem.Name = "archivoHTMLToolStripMenuItem";
-            this.archivoHTMLToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.archivoHTMLToolStripMenuItem.Text = "Archivo HTML";
-            this.archivoHTMLToolStripMenuItem.Click += new System.EventHandler(this.archivoHTMLToolStripMenuItem_Click);
+            this.pictureBox37.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox37.Image")));
+            this.pictureBox37.Location = new System.Drawing.Point(551, 31);
+            this.pictureBox37.Name = "pictureBox37";
+            this.pictureBox37.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox37.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox37.TabIndex = 16;
+            this.pictureBox37.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox37, "Application Launcher v2");
+            this.pictureBox37.Click += new System.EventHandler(this.pictureBox37_Click);
             // 
-            // notaDePruebaToolStripMenuItem
+            // pictureBox38
             // 
-            this.notaDePruebaToolStripMenuItem.Name = "notaDePruebaToolStripMenuItem";
-            this.notaDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.notaDePruebaToolStripMenuItem.Text = "Nota de prueba";
-            this.notaDePruebaToolStripMenuItem.Click += new System.EventHandler(this.notaDePruebaToolStripMenuItem_Click);
+            this.pictureBox38.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox38.Image")));
+            this.pictureBox38.Location = new System.Drawing.Point(640, 31);
+            this.pictureBox38.Name = "pictureBox38";
+            this.pictureBox38.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox38.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox38.TabIndex = 17;
+            this.pictureBox38.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox38, "Application Launcher v3");
+            this.pictureBox38.Click += new System.EventHandler(this.pictureBox38_Click);
             // 
-            // videoDePruebaToolStripMenuItem
+            // pictureBox39
             // 
-            this.videoDePruebaToolStripMenuItem.Name = "videoDePruebaToolStripMenuItem";
-            this.videoDePruebaToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.videoDePruebaToolStripMenuItem.Text = "Video de prueba";
-            this.videoDePruebaToolStripMenuItem.Click += new System.EventHandler(this.videoDePruebaToolStripMenuItem_Click);
+            this.pictureBox39.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox39.Image")));
+            this.pictureBox39.Location = new System.Drawing.Point(728, 31);
+            this.pictureBox39.Name = "pictureBox39";
+            this.pictureBox39.Size = new System.Drawing.Size(55, 55);
+            this.pictureBox39.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox39.TabIndex = 18;
+            this.pictureBox39.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox39, "Application Launcher v4");
+            this.pictureBox39.Click += new System.EventHandler(this.pictureBox39_Click);
             // 
-            // archivoCSSToolStripMenuItem
+            // pictureBox40
             // 
-            this.archivoCSSToolStripMenuItem.Name = "archivoCSSToolStripMenuItem";
-            this.archivoCSSToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.archivoCSSToolStripMenuItem.Text = "Archivo CSS";
-            this.archivoCSSToolStripMenuItem.Click += new System.EventHandler(this.archivoCSSToolStripMenuItem_Click);
+            this.pictureBox40.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox40.Image")));
+            this.pictureBox40.Location = new System.Drawing.Point(813, 31);
+            this.pictureBox40.Name = "pictureBox40";
+            this.pictureBox40.Size = new System.Drawing.Size(57, 55);
+            this.pictureBox40.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox40.TabIndex = 19;
+            this.pictureBox40.TabStop = false;
+            this.toolTip1.SetToolTip(this.pictureBox40, "Application Launcher v5");
+            this.pictureBox40.Click += new System.EventHandler(this.pictureBox40_Click);
             // 
-            // archivoJavaScriptToolStripMenuItem
+            // groupBox2
             // 
-            this.archivoJavaScriptToolStripMenuItem.Name = "archivoJavaScriptToolStripMenuItem";
-            this.archivoJavaScriptToolStripMenuItem.Size = new System.Drawing.Size(195, 22);
-            this.archivoJavaScriptToolStripMenuItem.Text = "Archivo JavaScript";
-            this.archivoJavaScriptToolStripMenuItem.Click += new System.EventHandler(this.archivoJavaScriptToolStripMenuItem_Click);
+            this.groupBox2.Controls.Add(this.pictureBox20);
+            this.groupBox2.Controls.Add(this.pictureBox19);
+            this.groupBox2.Controls.Add(this.pictureBox18);
+            this.groupBox2.Controls.Add(this.pictureBox17);
+            this.groupBox2.Controls.Add(this.pictureBox16);
+            this.groupBox2.Controls.Add(this.pictureBox15);
+            this.groupBox2.Controls.Add(this.pictureBox14);
+            this.groupBox2.Controls.Add(this.pictureBox13);
+            this.groupBox2.Controls.Add(this.pictureBox12);
+            this.groupBox2.Controls.Add(this.pictureBox8);
+            this.groupBox2.Location = new System.Drawing.Point(12, 163);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(899, 103);
+            this.groupBox2.TabIndex = 23;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Aplicaciones externas al sistema Windows 10";
+            this.groupBox2.Enter += new System.EventHandler(this.groupBox2_Enter);
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.pictureBox30);
+            this.groupBox3.Controls.Add(this.pictureBox29);
+            this.groupBox3.Controls.Add(this.pictureBox28);
+            this.groupBox3.Controls.Add(this.pictureBox27);
+            this.groupBox3.Controls.Add(this.pictureBox26);
+            this.groupBox3.Controls.Add(this.pictureBox25);
+            this.groupBox3.Controls.Add(this.pictureBox24);
+            this.groupBox3.Controls.Add(this.pictureBox23);
+            this.groupBox3.Controls.Add(this.pictureBox22);
+            this.groupBox3.Controls.Add(this.pictureBox21);
+            this.groupBox3.Location = new System.Drawing.Point(12, 285);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(899, 103);
+            this.groupBox3.TabIndex = 24;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Archivos asociados";
+            // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.pictureBox40);
+            this.groupBox4.Controls.Add(this.pictureBox39);
+            this.groupBox4.Controls.Add(this.pictureBox38);
+            this.groupBox4.Controls.Add(this.pictureBox37);
+            this.groupBox4.Controls.Add(this.pictureBox36);
+            this.groupBox4.Controls.Add(this.pictureBox35);
+            this.groupBox4.Controls.Add(this.pictureBox34);
+            this.groupBox4.Controls.Add(this.pictureBox33);
+            this.groupBox4.Controls.Add(this.pictureBox32);
+            this.groupBox4.Controls.Add(this.pictureBox31);
+            this.groupBox4.Location = new System.Drawing.Point(12, 406);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(899, 103);
+            this.groupBox4.TabIndex = 25;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Prácticas";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(927, 562);
+            this.ClientSize = new System.Drawing.Size(927, 572);
+            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -871,7 +1133,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Práctica 10";
+            this.Text = "Práctica 11";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
@@ -887,7 +1149,6 @@
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.groupBox2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
@@ -897,7 +1158,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            this.groupBox3.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
@@ -908,6 +1168,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox28)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox29)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox31)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox33)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox34)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox36)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox38)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox40)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -986,6 +1259,28 @@
         private System.Windows.Forms.ToolStripMenuItem videoDePruebaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem archivoCSSToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem archivoJavaScriptToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem practicasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.ToolStripMenuItem tarjetaDePresentaciónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applicationLauncherToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem instanciaDeClasesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rangoDeDatosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem rangoDeDatosV2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applicationLauncherV2ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applicationLauncherV3ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applicationLauncherV4ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem applicationLauncherV5ToolStripMenuItem;
+        private System.Windows.Forms.PictureBox pictureBox40;
+        private System.Windows.Forms.PictureBox pictureBox39;
+        private System.Windows.Forms.PictureBox pictureBox38;
+        private System.Windows.Forms.PictureBox pictureBox37;
+        private System.Windows.Forms.PictureBox pictureBox36;
+        private System.Windows.Forms.PictureBox pictureBox35;
+        private System.Windows.Forms.PictureBox pictureBox34;
+        private System.Windows.Forms.PictureBox pictureBox33;
+        private System.Windows.Forms.PictureBox pictureBox32;
+        private System.Windows.Forms.PictureBox pictureBox31;
     }
 }
 
