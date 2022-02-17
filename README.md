@@ -16,3 +16,7 @@ Todas las prácticas están elaboradas en el lenguaje de programación C# y dent
 | [Práctica 5](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-5) | Rango de datos |  | ✅ |
 | [Práctica 6](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-6) | Rango de datos v2 |  | ✅ |
 | [Práctica 7](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-7) | Application Launcher v2 | ✅ |  |
+| [Práctica 8](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-8) | Application Launcher v3 | ✅ |  |
+| [Práctica 9](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-9) | Application Launcher v4 | ✅ |  |
+| [Práctica 10](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-10) | Application Launcher v5 | ✅ |  |
+| [Práctica 11](https://github.com/AngelCruzL/practicas-ingenieriaDeSoftware/tree/practica-11) | Application Launcher v6 | ✅ |  |
