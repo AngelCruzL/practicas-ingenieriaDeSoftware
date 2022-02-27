@@ -10,7 +10,37 @@ namespace CAcruzlara
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Práctica 12:\n\n");
 
+            Osciloscopio osciloscopio = new Osciloscopio();
+            osciloscopio.PrintInfo();
+
+            Antena antena = new Antena();
+            antena.PrintInfo();
+
+            CircuitoElectrico circuitoElectrico = new CircuitoElectrico();
+            circuitoElectrico.PrintInfo();
+
+            Voltimetro voltimetro = new Voltimetro();
+            voltimetro.PrintInfo();
+
+            Amperimetro amperimetro = new Amperimetro();
+            amperimetro.PrintInfo();
+
+            Router router = new Router();
+            router.PrintInfo();
+
+            Microcontrolador microcontrolador = new Microcontrolador();
+            microcontrolador.PrintInfo();
+
+            Microprocesador microprocesador = new Microprocesador();
+            microprocesador.PrintInfo();
+
+            CableCoaxial cableCoaxial = new CableCoaxial();
+            cableCoaxial.PrintInfo();
+
+            Diodo diodo = new Diodo();
+            diodo.PrintInfo();
 
             System.Diagnostics.Process.Start("WFcruzlara_signature.exe");
 

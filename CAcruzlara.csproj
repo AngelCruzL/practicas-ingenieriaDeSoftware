@@ -43,8 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Amperimetro.cs" />
+    <Compile Include="Antena.cs" />
+    <Compile Include="CableCoaxial.cs" />
+    <Compile Include="CircuitoElectrico.cs" />
+    <Compile Include="Diodo.cs" />
+    <Compile Include="Microcontrolador.cs" />
+    <Compile Include="Microprocesador.cs" />
+    <Compile Include="Osciloscopio.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Router.cs" />
+    <Compile Include="Voltimetro.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
