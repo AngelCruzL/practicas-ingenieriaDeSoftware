@@ -1,3 +1,3 @@
-# Template Console Application
+# Práctica 13
 
-Projecto inicial para la elaboración de prácticas pertinentes a la temática de Aplicaciones de Consola utilizando .NET Framework v4.7.2.
+Elaboración de una aplicación de consola para calcular la fuerza de dos cargas eléctricas.

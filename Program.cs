@@ -10,7 +10,10 @@ namespace CAcruzlara
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Práctica 13\n");
 
+            CargasElectricas carga = new CargasElectricas();
+            carga.Calcular_Fuerza();
 
             System.Diagnostics.Process.Start("WFcruzlara_signature.exe");
 
