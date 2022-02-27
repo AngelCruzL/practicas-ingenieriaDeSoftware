@@ -1,3 +1,3 @@
 # Práctica 12
 
-Projecto inicial para la elaboración de prácticas pertinentes a la temática de Aplicaciones de Consola utilizando .NET Framework v4.7.2.
+Elaboración de una aplicación de consola que contendrá una lista de 10 objetos que sean de utilidad durante la carrera de ICE.
