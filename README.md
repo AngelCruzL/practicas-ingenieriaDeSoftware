@@ -1,3 +1,7 @@
-# Template Windows Form
+# Práctica 14
 
-Projecto inicial para la elaboración de prácticas pertinentes a la temática de Windows Forms utilizando .NET Framework v4.7.2.
+Elaboración de una aplicación con `Windows Forms` que funcione como un descriptor de sistemas.
+
+## Demostración de la práctica
+
+![Práctica 14](./practice.png)
