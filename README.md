@@ -1,3 +1,3 @@
-# Template Console Application
+# Práctica 16
 
-Projecto inicial para la elaboración de prácticas pertinentes a la temática de Aplicaciones de Consola utilizando .NET Framework v4.7.2.
+La práctica consiste en una aplicación de consola la cual muestra el casteo de las variables.
