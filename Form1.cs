@@ -16,5 +16,10 @@ namespace WFcruzlara
         {
             InitializeComponent();
         }
+
+        private void firmaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("WFcruzlara_signature.exe");
+        }
     }
 }
