@@ -1,3 +1,5 @@
-# Template Windows Form
+# Práctica 17
 
-Proyecto inicial para la elaboración de prácticas pertinentes a la temática de Windows Forms utilizando .NET Framework v4.7.2.
+Elaboración de una aplicación con `Windows Forms` que funcione como una calculadora con operaciones básicas e identidades trigonométricas.
+
+![Imagen de la práctica](./practice.png)
