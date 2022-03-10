@@ -160,6 +160,11 @@ namespace WFcruzlara
             PrepareOutput(result);
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void multiplication_Click(object sender, EventArgs e)
         {
             PrepareInput();
