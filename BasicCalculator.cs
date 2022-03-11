@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using info.lundin.math;
 
 namespace WFcruzlara
 {
     internal class BasicCalculator
     {
-        double value_1, value_2, result;
         public BasicCalculator()
         {
         }
@@ -137,6 +137,19 @@ namespace WFcruzlara
         {
             result = value * Math.Pow(10, exponent);
             return "Valor multiplicado x10 a la " + exponent + "a potencia";
+        }
+
+        public double ParseFunction(double x, string fx)
+        {
+            ExpressionParser parserFx = new ExpressionParser();
+            parserFx.Values.Add("x", x);
+            return parserFx.Parse(fx);
+        }
+
+        public string CalculateFunction(double x, string fx, ref double res)
+        {
+            res = ParseFunction(x, fx);
+            return "Evaluación de f(x)";
         }
     }
 }

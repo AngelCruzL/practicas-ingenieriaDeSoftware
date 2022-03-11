@@ -9,3 +9,5 @@ E:\ingenieria-de-software\practicas-ingenieriaDeSoftware\obj\Debug\WFcruzlara.cs
 E:\ingenieria-de-software\practicas-ingenieriaDeSoftware\obj\Debug\WFcruzlara.csproj.CoreCompileInputs.cache
 E:\ingenieria-de-software\practicas-ingenieriaDeSoftware\obj\Debug\WFcruzlara.exe
 E:\ingenieria-de-software\practicas-ingenieriaDeSoftware\obj\Debug\WFcruzlara.pdb
+E:\ingenieria-de-software\practicas-ingenieriaDeSoftware\bin\Debug\info.lundin.math.dll
+E:\ingenieria-de-software\practicas-ingenieriaDeSoftware\obj\Debug\WFcruzlara.csproj.CopyComplete

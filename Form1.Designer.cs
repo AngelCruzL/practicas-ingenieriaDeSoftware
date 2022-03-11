@@ -32,9 +32,34 @@
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.firmaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inputGroup = new System.Windows.Forms.GroupBox();
+            this.labelFx = new System.Windows.Forms.Label();
+            this.labelInput2 = new System.Windows.Forms.Label();
+            this.labelInput1 = new System.Windows.Forms.Label();
+            this.inputFx = new System.Windows.Forms.TextBox();
             this.input2 = new System.Windows.Forms.TextBox();
             this.input1 = new System.Windows.Forms.TextBox();
             this.proccessGroup = new System.Windows.Forms.GroupBox();
+            this.Fxy = new System.Windows.Forms.Button();
+            this.x9 = new System.Windows.Forms.Button();
+            this.x10_12 = new System.Windows.Forms.Button();
+            this.x10_11 = new System.Windows.Forms.Button();
+            this.x10_10 = new System.Windows.Forms.Button();
+            this.x10_9 = new System.Windows.Forms.Button();
+            this.x10_8 = new System.Windows.Forms.Button();
+            this.x10_7 = new System.Windows.Forms.Button();
+            this.x10_6 = new System.Windows.Forms.Button();
+            this.x10_5 = new System.Windows.Forms.Button();
+            this.x10_4 = new System.Windows.Forms.Button();
+            this.x10_3 = new System.Windows.Forms.Button();
+            this.x10_2 = new System.Windows.Forms.Button();
+            this.x10_1 = new System.Windows.Forms.Button();
+            this.x8 = new System.Windows.Forms.Button();
+            this.x7 = new System.Windows.Forms.Button();
+            this.x6 = new System.Windows.Forms.Button();
+            this.x5 = new System.Windows.Forms.Button();
+            this.x4 = new System.Windows.Forms.Button();
+            this.x3 = new System.Windows.Forms.Button();
+            this.x2 = new System.Windows.Forms.Button();
             this.csch = new System.Windows.Forms.Button();
             this.sech = new System.Windows.Forms.Button();
             this.coth = new System.Windows.Forms.Button();
@@ -56,26 +81,6 @@
             this.sum = new System.Windows.Forms.Button();
             this.outputGroup = new System.Windows.Forms.GroupBox();
             this.output = new System.Windows.Forms.ListBox();
-            this.x2 = new System.Windows.Forms.Button();
-            this.x3 = new System.Windows.Forms.Button();
-            this.x4 = new System.Windows.Forms.Button();
-            this.x5 = new System.Windows.Forms.Button();
-            this.x6 = new System.Windows.Forms.Button();
-            this.x7 = new System.Windows.Forms.Button();
-            this.x8 = new System.Windows.Forms.Button();
-            this.x10_1 = new System.Windows.Forms.Button();
-            this.x10_2 = new System.Windows.Forms.Button();
-            this.x10_3 = new System.Windows.Forms.Button();
-            this.x10_4 = new System.Windows.Forms.Button();
-            this.x10_5 = new System.Windows.Forms.Button();
-            this.x10_6 = new System.Windows.Forms.Button();
-            this.x10_7 = new System.Windows.Forms.Button();
-            this.x10_8 = new System.Windows.Forms.Button();
-            this.x10_9 = new System.Windows.Forms.Button();
-            this.x10_10 = new System.Windows.Forms.Button();
-            this.x10_11 = new System.Windows.Forms.Button();
-            this.x10_12 = new System.Windows.Forms.Button();
-            this.x9 = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.inputGroup.SuspendLayout();
             this.proccessGroup.SuspendLayout();
@@ -109,6 +114,10 @@
             // 
             // inputGroup
             // 
+            this.inputGroup.Controls.Add(this.labelFx);
+            this.inputGroup.Controls.Add(this.labelInput2);
+            this.inputGroup.Controls.Add(this.labelInput1);
+            this.inputGroup.Controls.Add(this.inputFx);
             this.inputGroup.Controls.Add(this.input2);
             this.inputGroup.Controls.Add(this.input1);
             this.inputGroup.Location = new System.Drawing.Point(41, 101);
@@ -118,9 +127,48 @@
             this.inputGroup.TabStop = false;
             this.inputGroup.Text = "Entrada";
             // 
+            // labelFx
+            // 
+            this.labelFx.AutoSize = true;
+            this.labelFx.Location = new System.Drawing.Point(71, 178);
+            this.labelFx.Name = "labelFx";
+            this.labelFx.Size = new System.Drawing.Size(62, 13);
+            this.labelFx.TabIndex = 5;
+            this.labelFx.Text = "Función f(x)";
+            this.labelFx.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // labelInput2
+            // 
+            this.labelInput2.AutoSize = true;
+            this.labelInput2.Location = new System.Drawing.Point(40, 109);
+            this.labelInput2.Name = "labelInput2";
+            this.labelInput2.Size = new System.Drawing.Size(93, 26);
+            this.labelInput2.TabIndex = 4;
+            this.labelInput2.Text = "Valor del dato 2\r\no de la incognita y";
+            this.labelInput2.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // labelInput1
+            // 
+            this.labelInput1.AutoSize = true;
+            this.labelInput1.Location = new System.Drawing.Point(40, 43);
+            this.labelInput1.Name = "labelInput1";
+            this.labelInput1.Size = new System.Drawing.Size(93, 26);
+            this.labelInput1.TabIndex = 3;
+            this.labelInput1.Text = "Valor del dato 1\r\no de la incognita x";
+            this.labelInput1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // inputFx
+            // 
+            this.inputFx.Location = new System.Drawing.Point(21, 194);
+            this.inputFx.Name = "inputFx";
+            this.inputFx.Size = new System.Drawing.Size(112, 20);
+            this.inputFx.TabIndex = 2;
+            this.inputFx.Text = "0";
+            this.inputFx.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // input2
             // 
-            this.input2.Location = new System.Drawing.Point(20, 83);
+            this.input2.Location = new System.Drawing.Point(21, 138);
             this.input2.Name = "input2";
             this.input2.Size = new System.Drawing.Size(112, 20);
             this.input2.TabIndex = 1;
@@ -129,7 +177,7 @@
             // 
             // input1
             // 
-            this.input1.Location = new System.Drawing.Point(20, 44);
+            this.input1.Location = new System.Drawing.Point(21, 72);
             this.input1.Name = "input1";
             this.input1.Size = new System.Drawing.Size(112, 20);
             this.input1.TabIndex = 0;
@@ -138,6 +186,7 @@
             // 
             // proccessGroup
             // 
+            this.proccessGroup.Controls.Add(this.Fxy);
             this.proccessGroup.Controls.Add(this.x9);
             this.proccessGroup.Controls.Add(this.x10_12);
             this.proccessGroup.Controls.Add(this.x10_11);
@@ -183,6 +232,236 @@
             this.proccessGroup.TabIndex = 2;
             this.proccessGroup.TabStop = false;
             this.proccessGroup.Text = "Proceso";
+            // 
+            // Fxy
+            // 
+            this.Fxy.BackColor = System.Drawing.Color.Purple;
+            this.Fxy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Fxy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fxy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Fxy.Location = new System.Drawing.Point(118, 215);
+            this.Fxy.Name = "Fxy";
+            this.Fxy.Size = new System.Drawing.Size(59, 28);
+            this.Fxy.TabIndex = 42;
+            this.Fxy.Text = "f(x)";
+            this.Fxy.UseVisualStyleBackColor = false;
+            this.Fxy.Click += new System.EventHandler(this.Fxy_Click);
+            // 
+            // x9
+            // 
+            this.x9.BackColor = System.Drawing.Color.SandyBrown;
+            this.x9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x9.Location = new System.Drawing.Point(66, 174);
+            this.x9.Name = "x9";
+            this.x9.Size = new System.Drawing.Size(46, 23);
+            this.x9.TabIndex = 41;
+            this.x9.Text = "x^9";
+            this.x9.UseVisualStyleBackColor = false;
+            this.x9.Click += new System.EventHandler(this.x9_Click);
+            // 
+            // x10_12
+            // 
+            this.x10_12.Location = new System.Drawing.Point(260, 174);
+            this.x10_12.Name = "x10_12";
+            this.x10_12.Size = new System.Drawing.Size(59, 23);
+            this.x10_12.TabIndex = 40;
+            this.x10_12.Text = "x*10^12";
+            this.x10_12.UseVisualStyleBackColor = true;
+            this.x10_12.Click += new System.EventHandler(this.x10_12_Click);
+            // 
+            // x10_11
+            // 
+            this.x10_11.Location = new System.Drawing.Point(189, 174);
+            this.x10_11.Name = "x10_11";
+            this.x10_11.Size = new System.Drawing.Size(59, 23);
+            this.x10_11.TabIndex = 39;
+            this.x10_11.Text = "x*10^11";
+            this.x10_11.UseVisualStyleBackColor = true;
+            this.x10_11.Click += new System.EventHandler(this.x10_11_Click);
+            // 
+            // x10_10
+            // 
+            this.x10_10.Location = new System.Drawing.Point(118, 174);
+            this.x10_10.Name = "x10_10";
+            this.x10_10.Size = new System.Drawing.Size(59, 23);
+            this.x10_10.TabIndex = 38;
+            this.x10_10.Text = "x*10^10";
+            this.x10_10.UseVisualStyleBackColor = true;
+            this.x10_10.Click += new System.EventHandler(this.x10_10_Click);
+            // 
+            // x10_9
+            // 
+            this.x10_9.Location = new System.Drawing.Point(260, 145);
+            this.x10_9.Name = "x10_9";
+            this.x10_9.Size = new System.Drawing.Size(59, 23);
+            this.x10_9.TabIndex = 37;
+            this.x10_9.Text = "x*10^9";
+            this.x10_9.UseVisualStyleBackColor = true;
+            this.x10_9.Click += new System.EventHandler(this.x10_9_Click);
+            // 
+            // x10_8
+            // 
+            this.x10_8.Location = new System.Drawing.Point(189, 145);
+            this.x10_8.Name = "x10_8";
+            this.x10_8.Size = new System.Drawing.Size(59, 23);
+            this.x10_8.TabIndex = 36;
+            this.x10_8.Text = "x*10^8";
+            this.x10_8.UseVisualStyleBackColor = true;
+            this.x10_8.Click += new System.EventHandler(this.x10_8_Click);
+            // 
+            // x10_7
+            // 
+            this.x10_7.Location = new System.Drawing.Point(118, 145);
+            this.x10_7.Name = "x10_7";
+            this.x10_7.Size = new System.Drawing.Size(59, 23);
+            this.x10_7.TabIndex = 35;
+            this.x10_7.Text = "x*10^7";
+            this.x10_7.UseVisualStyleBackColor = true;
+            this.x10_7.Click += new System.EventHandler(this.x10_7_Click);
+            // 
+            // x10_6
+            // 
+            this.x10_6.Location = new System.Drawing.Point(260, 116);
+            this.x10_6.Name = "x10_6";
+            this.x10_6.Size = new System.Drawing.Size(59, 23);
+            this.x10_6.TabIndex = 34;
+            this.x10_6.Text = "x*10^6";
+            this.x10_6.UseVisualStyleBackColor = true;
+            this.x10_6.Click += new System.EventHandler(this.x10_6_Click);
+            // 
+            // x10_5
+            // 
+            this.x10_5.Location = new System.Drawing.Point(189, 116);
+            this.x10_5.Name = "x10_5";
+            this.x10_5.Size = new System.Drawing.Size(59, 23);
+            this.x10_5.TabIndex = 33;
+            this.x10_5.Text = "x*10^5";
+            this.x10_5.UseVisualStyleBackColor = true;
+            this.x10_5.Click += new System.EventHandler(this.x10_5_Click);
+            // 
+            // x10_4
+            // 
+            this.x10_4.Location = new System.Drawing.Point(118, 116);
+            this.x10_4.Name = "x10_4";
+            this.x10_4.Size = new System.Drawing.Size(59, 23);
+            this.x10_4.TabIndex = 32;
+            this.x10_4.Text = "x*10^4";
+            this.x10_4.UseVisualStyleBackColor = true;
+            this.x10_4.Click += new System.EventHandler(this.x10_4_Click);
+            // 
+            // x10_3
+            // 
+            this.x10_3.Location = new System.Drawing.Point(260, 87);
+            this.x10_3.Name = "x10_3";
+            this.x10_3.Size = new System.Drawing.Size(59, 23);
+            this.x10_3.TabIndex = 31;
+            this.x10_3.Text = "x*10^3";
+            this.x10_3.UseVisualStyleBackColor = true;
+            this.x10_3.Click += new System.EventHandler(this.x10_3_Click);
+            // 
+            // x10_2
+            // 
+            this.x10_2.Location = new System.Drawing.Point(189, 87);
+            this.x10_2.Name = "x10_2";
+            this.x10_2.Size = new System.Drawing.Size(59, 23);
+            this.x10_2.TabIndex = 30;
+            this.x10_2.Text = "x*10^2";
+            this.x10_2.UseVisualStyleBackColor = true;
+            this.x10_2.Click += new System.EventHandler(this.x10_2_Click);
+            // 
+            // x10_1
+            // 
+            this.x10_1.Location = new System.Drawing.Point(118, 87);
+            this.x10_1.Name = "x10_1";
+            this.x10_1.Size = new System.Drawing.Size(59, 23);
+            this.x10_1.TabIndex = 29;
+            this.x10_1.Text = "x*10^1";
+            this.x10_1.UseVisualStyleBackColor = true;
+            this.x10_1.Click += new System.EventHandler(this.x10_1_Click);
+            // 
+            // x8
+            // 
+            this.x8.BackColor = System.Drawing.Color.SandyBrown;
+            this.x8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x8.Location = new System.Drawing.Point(66, 145);
+            this.x8.Name = "x8";
+            this.x8.Size = new System.Drawing.Size(46, 23);
+            this.x8.TabIndex = 28;
+            this.x8.Text = "x^8";
+            this.x8.UseVisualStyleBackColor = false;
+            this.x8.Click += new System.EventHandler(this.x8_Click);
+            // 
+            // x7
+            // 
+            this.x7.BackColor = System.Drawing.Color.SandyBrown;
+            this.x7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x7.Location = new System.Drawing.Point(66, 116);
+            this.x7.Name = "x7";
+            this.x7.Size = new System.Drawing.Size(46, 23);
+            this.x7.TabIndex = 27;
+            this.x7.Text = "x^7";
+            this.x7.UseVisualStyleBackColor = false;
+            this.x7.Click += new System.EventHandler(this.x7_Click);
+            // 
+            // x6
+            // 
+            this.x6.BackColor = System.Drawing.Color.SandyBrown;
+            this.x6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x6.Location = new System.Drawing.Point(66, 87);
+            this.x6.Name = "x6";
+            this.x6.Size = new System.Drawing.Size(46, 23);
+            this.x6.TabIndex = 26;
+            this.x6.Text = "x^6";
+            this.x6.UseVisualStyleBackColor = false;
+            this.x6.Click += new System.EventHandler(this.x6_Click);
+            // 
+            // x5
+            // 
+            this.x5.BackColor = System.Drawing.Color.SandyBrown;
+            this.x5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x5.Location = new System.Drawing.Point(14, 174);
+            this.x5.Name = "x5";
+            this.x5.Size = new System.Drawing.Size(46, 23);
+            this.x5.TabIndex = 25;
+            this.x5.Text = "x^5";
+            this.x5.UseVisualStyleBackColor = false;
+            this.x5.Click += new System.EventHandler(this.x5_Click);
+            // 
+            // x4
+            // 
+            this.x4.BackColor = System.Drawing.Color.SandyBrown;
+            this.x4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x4.Location = new System.Drawing.Point(14, 145);
+            this.x4.Name = "x4";
+            this.x4.Size = new System.Drawing.Size(46, 23);
+            this.x4.TabIndex = 24;
+            this.x4.Text = "x^4";
+            this.x4.UseVisualStyleBackColor = false;
+            this.x4.Click += new System.EventHandler(this.x4_Click);
+            // 
+            // x3
+            // 
+            this.x3.BackColor = System.Drawing.Color.SandyBrown;
+            this.x3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x3.Location = new System.Drawing.Point(14, 116);
+            this.x3.Name = "x3";
+            this.x3.Size = new System.Drawing.Size(46, 23);
+            this.x3.TabIndex = 23;
+            this.x3.Text = "x^3";
+            this.x3.UseVisualStyleBackColor = false;
+            this.x3.Click += new System.EventHandler(this.x3_Click);
+            // 
+            // x2
+            // 
+            this.x2.BackColor = System.Drawing.Color.SandyBrown;
+            this.x2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.x2.Location = new System.Drawing.Point(14, 87);
+            this.x2.Name = "x2";
+            this.x2.Size = new System.Drawing.Size(46, 23);
+            this.x2.TabIndex = 22;
+            this.x2.Text = "x^2";
+            this.x2.UseVisualStyleBackColor = false;
+            this.x2.Click += new System.EventHandler(this.x2_Click);
             // 
             // csch
             // 
@@ -444,222 +723,6 @@
             this.output.Size = new System.Drawing.Size(225, 251);
             this.output.TabIndex = 0;
             // 
-            // x2
-            // 
-            this.x2.BackColor = System.Drawing.Color.SandyBrown;
-            this.x2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x2.Location = new System.Drawing.Point(14, 87);
-            this.x2.Name = "x2";
-            this.x2.Size = new System.Drawing.Size(46, 23);
-            this.x2.TabIndex = 22;
-            this.x2.Text = "x^2";
-            this.x2.UseVisualStyleBackColor = false;
-            this.x2.Click += new System.EventHandler(this.x2_Click);
-            // 
-            // x3
-            // 
-            this.x3.BackColor = System.Drawing.Color.SandyBrown;
-            this.x3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x3.Location = new System.Drawing.Point(14, 116);
-            this.x3.Name = "x3";
-            this.x3.Size = new System.Drawing.Size(46, 23);
-            this.x3.TabIndex = 23;
-            this.x3.Text = "x^3";
-            this.x3.UseVisualStyleBackColor = false;
-            this.x3.Click += new System.EventHandler(this.x3_Click);
-            // 
-            // x4
-            // 
-            this.x4.BackColor = System.Drawing.Color.SandyBrown;
-            this.x4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x4.Location = new System.Drawing.Point(14, 145);
-            this.x4.Name = "x4";
-            this.x4.Size = new System.Drawing.Size(46, 23);
-            this.x4.TabIndex = 24;
-            this.x4.Text = "x^4";
-            this.x4.UseVisualStyleBackColor = false;
-            this.x4.Click += new System.EventHandler(this.x4_Click);
-            // 
-            // x5
-            // 
-            this.x5.BackColor = System.Drawing.Color.SandyBrown;
-            this.x5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x5.Location = new System.Drawing.Point(14, 174);
-            this.x5.Name = "x5";
-            this.x5.Size = new System.Drawing.Size(46, 23);
-            this.x5.TabIndex = 25;
-            this.x5.Text = "x^5";
-            this.x5.UseVisualStyleBackColor = false;
-            this.x5.Click += new System.EventHandler(this.x5_Click);
-            // 
-            // x6
-            // 
-            this.x6.BackColor = System.Drawing.Color.SandyBrown;
-            this.x6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x6.Location = new System.Drawing.Point(66, 87);
-            this.x6.Name = "x6";
-            this.x6.Size = new System.Drawing.Size(46, 23);
-            this.x6.TabIndex = 26;
-            this.x6.Text = "x^6";
-            this.x6.UseVisualStyleBackColor = false;
-            this.x6.Click += new System.EventHandler(this.x6_Click);
-            // 
-            // x7
-            // 
-            this.x7.BackColor = System.Drawing.Color.SandyBrown;
-            this.x7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x7.Location = new System.Drawing.Point(66, 116);
-            this.x7.Name = "x7";
-            this.x7.Size = new System.Drawing.Size(46, 23);
-            this.x7.TabIndex = 27;
-            this.x7.Text = "x^7";
-            this.x7.UseVisualStyleBackColor = false;
-            this.x7.Click += new System.EventHandler(this.x7_Click);
-            // 
-            // x8
-            // 
-            this.x8.BackColor = System.Drawing.Color.SandyBrown;
-            this.x8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x8.Location = new System.Drawing.Point(66, 145);
-            this.x8.Name = "x8";
-            this.x8.Size = new System.Drawing.Size(46, 23);
-            this.x8.TabIndex = 28;
-            this.x8.Text = "x^8";
-            this.x8.UseVisualStyleBackColor = false;
-            this.x8.Click += new System.EventHandler(this.x8_Click);
-            // 
-            // x10_1
-            // 
-            this.x10_1.Location = new System.Drawing.Point(118, 87);
-            this.x10_1.Name = "x10_1";
-            this.x10_1.Size = new System.Drawing.Size(59, 23);
-            this.x10_1.TabIndex = 29;
-            this.x10_1.Text = "x*10^1";
-            this.x10_1.UseVisualStyleBackColor = true;
-            this.x10_1.Click += new System.EventHandler(this.x10_1_Click);
-            // 
-            // x10_2
-            // 
-            this.x10_2.Location = new System.Drawing.Point(189, 87);
-            this.x10_2.Name = "x10_2";
-            this.x10_2.Size = new System.Drawing.Size(59, 23);
-            this.x10_2.TabIndex = 30;
-            this.x10_2.Text = "x*10^2";
-            this.x10_2.UseVisualStyleBackColor = true;
-            this.x10_2.Click += new System.EventHandler(this.x10_2_Click);
-            // 
-            // x10_3
-            // 
-            this.x10_3.Location = new System.Drawing.Point(260, 87);
-            this.x10_3.Name = "x10_3";
-            this.x10_3.Size = new System.Drawing.Size(59, 23);
-            this.x10_3.TabIndex = 31;
-            this.x10_3.Text = "x*10^3";
-            this.x10_3.UseVisualStyleBackColor = true;
-            this.x10_3.Click += new System.EventHandler(this.x10_3_Click);
-            // 
-            // x10_4
-            // 
-            this.x10_4.Location = new System.Drawing.Point(118, 116);
-            this.x10_4.Name = "x10_4";
-            this.x10_4.Size = new System.Drawing.Size(59, 23);
-            this.x10_4.TabIndex = 32;
-            this.x10_4.Text = "x*10^4";
-            this.x10_4.UseVisualStyleBackColor = true;
-            this.x10_4.Click += new System.EventHandler(this.x10_4_Click);
-            // 
-            // x10_5
-            // 
-            this.x10_5.Location = new System.Drawing.Point(189, 116);
-            this.x10_5.Name = "x10_5";
-            this.x10_5.Size = new System.Drawing.Size(59, 23);
-            this.x10_5.TabIndex = 33;
-            this.x10_5.Text = "x*10^5";
-            this.x10_5.UseVisualStyleBackColor = true;
-            this.x10_5.Click += new System.EventHandler(this.x10_5_Click);
-            // 
-            // x10_6
-            // 
-            this.x10_6.Location = new System.Drawing.Point(260, 116);
-            this.x10_6.Name = "x10_6";
-            this.x10_6.Size = new System.Drawing.Size(59, 23);
-            this.x10_6.TabIndex = 34;
-            this.x10_6.Text = "x*10^6";
-            this.x10_6.UseVisualStyleBackColor = true;
-            this.x10_6.Click += new System.EventHandler(this.x10_6_Click);
-            // 
-            // x10_7
-            // 
-            this.x10_7.Location = new System.Drawing.Point(118, 145);
-            this.x10_7.Name = "x10_7";
-            this.x10_7.Size = new System.Drawing.Size(59, 23);
-            this.x10_7.TabIndex = 35;
-            this.x10_7.Text = "x*10^7";
-            this.x10_7.UseVisualStyleBackColor = true;
-            this.x10_7.Click += new System.EventHandler(this.x10_7_Click);
-            // 
-            // x10_8
-            // 
-            this.x10_8.Location = new System.Drawing.Point(189, 145);
-            this.x10_8.Name = "x10_8";
-            this.x10_8.Size = new System.Drawing.Size(59, 23);
-            this.x10_8.TabIndex = 36;
-            this.x10_8.Text = "x*10^8";
-            this.x10_8.UseVisualStyleBackColor = true;
-            this.x10_8.Click += new System.EventHandler(this.x10_8_Click);
-            // 
-            // x10_9
-            // 
-            this.x10_9.Location = new System.Drawing.Point(260, 145);
-            this.x10_9.Name = "x10_9";
-            this.x10_9.Size = new System.Drawing.Size(59, 23);
-            this.x10_9.TabIndex = 37;
-            this.x10_9.Text = "x*10^9";
-            this.x10_9.UseVisualStyleBackColor = true;
-            this.x10_9.Click += new System.EventHandler(this.x10_9_Click);
-            // 
-            // x10_10
-            // 
-            this.x10_10.Location = new System.Drawing.Point(118, 174);
-            this.x10_10.Name = "x10_10";
-            this.x10_10.Size = new System.Drawing.Size(59, 23);
-            this.x10_10.TabIndex = 38;
-            this.x10_10.Text = "x*10^10";
-            this.x10_10.UseVisualStyleBackColor = true;
-            this.x10_10.Click += new System.EventHandler(this.x10_10_Click);
-            // 
-            // x10_11
-            // 
-            this.x10_11.Location = new System.Drawing.Point(189, 174);
-            this.x10_11.Name = "x10_11";
-            this.x10_11.Size = new System.Drawing.Size(59, 23);
-            this.x10_11.TabIndex = 39;
-            this.x10_11.Text = "x*10^11";
-            this.x10_11.UseVisualStyleBackColor = true;
-            this.x10_11.Click += new System.EventHandler(this.x10_11_Click);
-            // 
-            // x10_12
-            // 
-            this.x10_12.Location = new System.Drawing.Point(260, 174);
-            this.x10_12.Name = "x10_12";
-            this.x10_12.Size = new System.Drawing.Size(59, 23);
-            this.x10_12.TabIndex = 40;
-            this.x10_12.Text = "x*10^12";
-            this.x10_12.UseVisualStyleBackColor = true;
-            this.x10_12.Click += new System.EventHandler(this.x10_12_Click);
-            // 
-            // x9
-            // 
-            this.x9.BackColor = System.Drawing.Color.SandyBrown;
-            this.x9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.x9.Location = new System.Drawing.Point(66, 174);
-            this.x9.Name = "x9";
-            this.x9.Size = new System.Drawing.Size(46, 23);
-            this.x9.TabIndex = 41;
-            this.x9.Text = "x^9";
-            this.x9.UseVisualStyleBackColor = false;
-            this.x9.Click += new System.EventHandler(this.x9_Click);
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -671,7 +734,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Práctica 18 | Calculadora con funciones trigonometricas";
+            this.Text = "Práctica 19 | Calculadora con parser de funciones";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.inputGroup.ResumeLayout(false);
@@ -734,6 +797,11 @@
         private System.Windows.Forms.Button x10_2;
         private System.Windows.Forms.Button x10_1;
         private System.Windows.Forms.Button x9;
+        private System.Windows.Forms.Label labelInput2;
+        private System.Windows.Forms.Label labelInput1;
+        private System.Windows.Forms.TextBox inputFx;
+        private System.Windows.Forms.Button Fxy;
+        private System.Windows.Forms.Label labelFx;
     }
 }
 

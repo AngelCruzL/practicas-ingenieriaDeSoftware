@@ -14,7 +14,7 @@ namespace WFcruzlara
     {
         double value_1, value_2, result;
         BasicCalculator calculator;
-        string message;
+        string message, value_function_x;
 
         public Form1()
         {
@@ -35,6 +35,7 @@ namespace WFcruzlara
             {
                 value_1 = double.Parse(input1.Text);
                 value_2 = double.Parse(input2.Text);
+                value_function_x = inputFx.Text;
             }
             catch
             {
@@ -297,6 +298,13 @@ namespace WFcruzlara
         {
             PrepareInput();
             message = calculator.MultiplyX10ElaveteTo(value_1, 12, ref result);
+            PrepareOutput(result);
+        }
+
+        private void Fxy_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.CalculateFunction(value_1, value_function_x, ref result);
             PrepareOutput(result);
         }
 
