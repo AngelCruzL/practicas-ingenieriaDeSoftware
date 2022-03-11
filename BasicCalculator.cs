@@ -126,5 +126,17 @@ namespace WFcruzlara
             res = 1 / Math.Sin(val_1);
             return "Función cosecante hiperbólica de un número";
         }
+
+        public string ElevateTo(double value, double exponent, ref double result)
+        {
+            result = Math.Pow(value, exponent);
+            return "Valor elevado a la " + exponent + "a potencia";
+        }
+
+        public string MultiplyX10ElaveteTo(double value, double exponent, ref double result)
+        {
+            result = value * Math.Pow(10, exponent);
+            return "Valor multiplicado x10 a la " + exponent + "a potencia";
+        }
     }
 }

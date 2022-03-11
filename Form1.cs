@@ -160,6 +160,146 @@ namespace WFcruzlara
             PrepareOutput(result);
         }
 
+        private void x2_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.ElevateTo(value_1, 2, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x3_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.ElevateTo(value_1, 3, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x4_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.ElevateTo(value_1, 4, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x5_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.ElevateTo(value_1, 5, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x6_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.ElevateTo(value_1, 6, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x7_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.ElevateTo(value_1, 7, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x8_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.ElevateTo(value_1, 8, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x9_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.ElevateTo(value_1, 9, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_1_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 1, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_2_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 2, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_3_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 3, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_4_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 4, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_5_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 5, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_6_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 6, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_7_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 7, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_8_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 8, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_9_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 9, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_10_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 10, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_11_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 11, ref result);
+            PrepareOutput(result);
+        }
+
+        private void x10_12_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.MultiplyX10ElaveteTo(value_1, 12, ref result);
+            PrepareOutput(result);
+        }
+
         private void multiplication_Click(object sender, EventArgs e)
         {
             PrepareInput();
