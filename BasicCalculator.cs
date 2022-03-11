@@ -151,5 +151,19 @@ namespace WFcruzlara
             res = ParseFunction(x, fx);
             return "Evaluación de f(x)";
         }
+
+        public double ParseFunctionXY(double x, double y, string fxy)
+        {
+            ExpressionParser parserFxy = new ExpressionParser();
+            parserFxy.Values.Add("x", x);
+            parserFxy.Values.Add("y", y);
+            return parserFxy.Parse(fxy);
+        }
+
+        public string CalculateFunctionXY(double x, double y, string fxy, ref double result)
+        {
+            result = ParseFunctionXY(x, y, fxy);
+            return "Evaluación de f(x,y)";
+        }
     }
 }

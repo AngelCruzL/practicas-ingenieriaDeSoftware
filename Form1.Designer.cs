@@ -32,6 +32,8 @@
             this.archivoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.firmaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.inputGroup = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.inputFxy = new System.Windows.Forms.TextBox();
             this.labelFx = new System.Windows.Forms.Label();
             this.labelInput2 = new System.Windows.Forms.Label();
             this.labelInput1 = new System.Windows.Forms.Label();
@@ -40,6 +42,7 @@
             this.input1 = new System.Windows.Forms.TextBox();
             this.proccessGroup = new System.Windows.Forms.GroupBox();
             this.Fxy = new System.Windows.Forms.Button();
+            this.Fx = new System.Windows.Forms.Button();
             this.x9 = new System.Windows.Forms.Button();
             this.x10_12 = new System.Windows.Forms.Button();
             this.x10_11 = new System.Windows.Forms.Button();
@@ -114,6 +117,8 @@
             // 
             // inputGroup
             // 
+            this.inputGroup.Controls.Add(this.label1);
+            this.inputGroup.Controls.Add(this.inputFxy);
             this.inputGroup.Controls.Add(this.labelFx);
             this.inputGroup.Controls.Add(this.labelInput2);
             this.inputGroup.Controls.Add(this.labelInput1);
@@ -127,10 +132,29 @@
             this.inputGroup.TabStop = false;
             this.inputGroup.Text = "Entrada";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(63, 222);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(70, 13);
+            this.label1.TabIndex = 7;
+            this.label1.Text = "Función f(x,y)";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // inputFxy
+            // 
+            this.inputFxy.Location = new System.Drawing.Point(21, 238);
+            this.inputFxy.Name = "inputFxy";
+            this.inputFxy.Size = new System.Drawing.Size(112, 20);
+            this.inputFxy.TabIndex = 6;
+            this.inputFxy.Text = "0";
+            this.inputFxy.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // 
             // labelFx
             // 
             this.labelFx.AutoSize = true;
-            this.labelFx.Location = new System.Drawing.Point(71, 178);
+            this.labelFx.Location = new System.Drawing.Point(71, 170);
             this.labelFx.Name = "labelFx";
             this.labelFx.Size = new System.Drawing.Size(62, 13);
             this.labelFx.TabIndex = 5;
@@ -140,7 +164,7 @@
             // labelInput2
             // 
             this.labelInput2.AutoSize = true;
-            this.labelInput2.Location = new System.Drawing.Point(40, 109);
+            this.labelInput2.Location = new System.Drawing.Point(40, 104);
             this.labelInput2.Name = "labelInput2";
             this.labelInput2.Size = new System.Drawing.Size(93, 26);
             this.labelInput2.TabIndex = 4;
@@ -150,7 +174,7 @@
             // labelInput1
             // 
             this.labelInput1.AutoSize = true;
-            this.labelInput1.Location = new System.Drawing.Point(40, 43);
+            this.labelInput1.Location = new System.Drawing.Point(40, 38);
             this.labelInput1.Name = "labelInput1";
             this.labelInput1.Size = new System.Drawing.Size(93, 26);
             this.labelInput1.TabIndex = 3;
@@ -159,7 +183,7 @@
             // 
             // inputFx
             // 
-            this.inputFx.Location = new System.Drawing.Point(21, 194);
+            this.inputFx.Location = new System.Drawing.Point(21, 186);
             this.inputFx.Name = "inputFx";
             this.inputFx.Size = new System.Drawing.Size(112, 20);
             this.inputFx.TabIndex = 2;
@@ -168,7 +192,7 @@
             // 
             // input2
             // 
-            this.input2.Location = new System.Drawing.Point(21, 138);
+            this.input2.Location = new System.Drawing.Point(21, 133);
             this.input2.Name = "input2";
             this.input2.Size = new System.Drawing.Size(112, 20);
             this.input2.TabIndex = 1;
@@ -177,7 +201,7 @@
             // 
             // input1
             // 
-            this.input1.Location = new System.Drawing.Point(21, 72);
+            this.input1.Location = new System.Drawing.Point(21, 67);
             this.input1.Name = "input1";
             this.input1.Size = new System.Drawing.Size(112, 20);
             this.input1.TabIndex = 0;
@@ -187,6 +211,7 @@
             // proccessGroup
             // 
             this.proccessGroup.Controls.Add(this.Fxy);
+            this.proccessGroup.Controls.Add(this.Fx);
             this.proccessGroup.Controls.Add(this.x9);
             this.proccessGroup.Controls.Add(this.x10_12);
             this.proccessGroup.Controls.Add(this.x10_11);
@@ -239,13 +264,27 @@
             this.Fxy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Fxy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Fxy.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Fxy.Location = new System.Drawing.Point(118, 215);
+            this.Fxy.Location = new System.Drawing.Point(189, 215);
             this.Fxy.Name = "Fxy";
             this.Fxy.Size = new System.Drawing.Size(59, 28);
-            this.Fxy.TabIndex = 42;
-            this.Fxy.Text = "f(x)";
+            this.Fxy.TabIndex = 43;
+            this.Fxy.Text = "f(x,y)";
             this.Fxy.UseVisualStyleBackColor = false;
             this.Fxy.Click += new System.EventHandler(this.Fxy_Click);
+            // 
+            // Fx
+            // 
+            this.Fx.BackColor = System.Drawing.Color.Purple;
+            this.Fx.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Fx.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fx.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.Fx.Location = new System.Drawing.Point(118, 215);
+            this.Fx.Name = "Fx";
+            this.Fx.Size = new System.Drawing.Size(59, 28);
+            this.Fx.TabIndex = 42;
+            this.Fx.Text = "f(x)";
+            this.Fx.UseVisualStyleBackColor = false;
+            this.Fx.Click += new System.EventHandler(this.Fx_Click);
             // 
             // x9
             // 
@@ -734,7 +773,7 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Práctica 19 | Calculadora con parser de funciones";
+            this.Text = "Práctica 20 | Calculadora con parser de funciones";
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.inputGroup.ResumeLayout(false);
@@ -800,8 +839,11 @@
         private System.Windows.Forms.Label labelInput2;
         private System.Windows.Forms.Label labelInput1;
         private System.Windows.Forms.TextBox inputFx;
-        private System.Windows.Forms.Button Fxy;
+        private System.Windows.Forms.Button Fx;
         private System.Windows.Forms.Label labelFx;
+        private System.Windows.Forms.Button Fxy;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox inputFxy;
     }
 }
 

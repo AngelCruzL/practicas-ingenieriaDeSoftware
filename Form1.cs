@@ -14,7 +14,7 @@ namespace WFcruzlara
     {
         double value_1, value_2, result;
         BasicCalculator calculator;
-        string message, value_function_x;
+        string message, value_function_x, value_function_xy;
 
         public Form1()
         {
@@ -36,6 +36,7 @@ namespace WFcruzlara
                 value_1 = double.Parse(input1.Text);
                 value_2 = double.Parse(input2.Text);
                 value_function_x = inputFx.Text;
+                value_function_xy = inputFxy.Text;
             }
             catch
             {
@@ -301,10 +302,17 @@ namespace WFcruzlara
             PrepareOutput(result);
         }
 
-        private void Fxy_Click(object sender, EventArgs e)
+        private void Fx_Click(object sender, EventArgs e)
         {
             PrepareInput();
             message = calculator.CalculateFunction(value_1, value_function_x, ref result);
+            PrepareOutput(result);
+        }
+
+        private void Fxy_Click(object sender, EventArgs e)
+        {
+            PrepareInput();
+            message = calculator.CalculateFunctionXY(value_1, value_2, value_function_xy, ref result);
             PrepareOutput(result);
         }
 
